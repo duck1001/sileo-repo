@@ -36,26 +36,6 @@ SHA1: bb5c97e42618230cbff3736981d87e5afe325c90
 SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
 SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
 
-Package: com.dao.ccless
-Name: CCLess++(RootHide)
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Architecture: iphoneos-arm64e
-Description: 超级控制中心模块集合！
-Maintainer: 妖刀
-Author: 妖刀
-Section: 嗨-工具
-Version: 2.1.0.1
-Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
-SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-Pre-Depends: rootless-compat(>= 0.9)
-
-Filename: ./debs/CCLess++(RootHide)-2.1.0.1-iphoneos-arm64e.deb
-Size: 498256
-MD5sum: edbbb602ba5ec129edc1396803efff79
-SHA1: d66d7fb81718be6dd220f40621a538b8fb933e97
-SHA256: 0fa305deda572f8dde4ec69ab6571dff1af7d6cd0ac4eb090b69d7a12f64921d
-SHA512: 07960eed642496a174c136a4b96b86adde2da31f42d2491b0eaac5c40f13b86206a8eea9d51f8892bb92cbc43c7a2e4ce09647bc4eafca06fcd3954c71384984
-
 Package: com.wkk.folder4
 Name: Folder4x4
 Description: 4x4的文件夹布局/隐藏打开后的文件夹背景/打开文件夹内app自动关闭文件夹/调整打开后文件夹布局整体为中心/修复springboard奔溃后文件夹图标剩9个/配合源里文件夹阴影使用将springboard占用压榨到最低。
@@ -188,6 +168,25 @@ MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
 SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
+
+Package: com.duck.ccless
+Name: CCLess++(RootHide)
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Description: 超级控制中心模块集合！
+Maintainer: 妖刀
+Author: 妖刀
+Section: 嗨-工具
+Version: 2.1.0.1
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Pre-Depends: rootless-compat(>= 0.9)
+
+Filename: ./debs/com.duck.ccless_2.1.0.1_iphoneos-arm64e.deb
+Size: 498140
+MD5sum: 5defc24140e32c2456d52cfecbedb74c
+SHA1: 9bd79a252a65df989160dac43f0dcd41e14b5627
+SHA256: 2fb458dc91552b7afabdca361b9db0cb1571d9472afb34a8aaa0ada5d83ab051
+SHA512: 0ef218f264ebd67ec9ad7dde5c3060e7f8df3606f782d9d5480710e964c97f7285ff8a69124d7c0ade94241a423b6415258362f6399d6c3e791f1ace007c7d02
 
 Package: com.duck.qis
 Version: 5.2.0
