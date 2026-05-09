@@ -1,227 +1,125 @@
-╔══════════════════════════════════════════════════════════════╗
-║           Subos000 Sileo 软件源 - 完整使用教程               ║
-╚══════════════════════════════════════════════════════════════╝
-
-目录
-   一、软件源结构说明
-   二、首次部署到 GitHub
-   三、添加新的插件 (.deb)
-   四、GitHub Actions 自动构建
-   五、GPG 签名（可选）
-   六、快速命令速查
-   七、常见问题
+╔══════════════════════════════════════════════════╗
+║     Subos000 Sileo 软件源 · 精简使用教程          ║
+╚══════════════════════════════════════════════════╝
 
 =============================================================
-一、软件源结构说明
+一、目录结构说明
 =============================================================
 
 sileo-repo/
+├── debs/
+│   ├── roothide/         ← Roothide 插件放这里
+│   ├── tweaks/           ← 系统增强插件放这里
+│   ├── widgets/          ← 桌面小部件放这里
+│   └── utilities/        ← 实用工具放这里
 │
-├── debs/                          # DEB 软件包目录
-│   ├── roothide/                  #   Roothide 插件
-│   ├── tweaks/                    #   系统增强
-│   ├── widgets/                   #   桌面小部件
-│   └── utilities/                 #   实用工具
-│
-├── gen.sh                         # [核心] 生成 Packages/Release
-├── build-sample-debs.sh           #   示例包构建脚本（用完可删）
-├── CydiaIcon.png                  #   软件源图标（可替换）
-├── README.md                      #   说明文档
-│
-├── .github/workflows/generate.yml #   GitHub Actions 自动配置
-├── .gitignore                     #   Git 忽略规则
-│
-├── Packages                       #   [自动生成] 软件包索引
-├── Packages.gz                    #   [自动生成] 压缩索引
-└── Release                        #   [自动生成] 发布元数据
+├── gen.sh                ← 索引生成脚本 (留着，别删)
+├── CydiaIcon.png         ← 软件源图标
+├── 使用教程.txt           ← 本教程
+└── .github/workflows/
+    └── generate.yml      ← 自动构建配置
 
-
-原理：
-Sileo/Cydia 软件源本质上是一个遵循 APT 格式的静态网站。
-核心文件是 Packages（记录所有插件信息）和 Release（校验文件）。
-通过 GitHub Pages 托管这些文件，Sileo 就能读取并展示插件列表。
+以后新增分类直接在 debs/ 下创建新文件夹就行。
 
 =============================================================
-二、首次部署到 GitHub
+二、上传插件·详细步骤
 =============================================================
 
-【步骤1】在 GitHub 创建空仓库
----------------------------------
-1. 打开 https://github.com/Subos000
-2. 点绿色 "New" 按钮创建新仓库
-3. Repository name 填: sileo-repo
-4. Description 可填: Subos000 Sileo 越狱软件源
-5. 选 Public（公开）
-6. 不要勾选任何初始化选项（README、.gitignore、License 都不选）
-7. 点 "Create repository"
+【1】用 Filza 把 .deb 放入对应文件夹
 
+    举例：你的 floatingView 是 Roothide 插件
+    → 放入 debs/roothide/ 目录下
 
-【步骤2】从手机推送代码
----------------------------------
-打开终端（如 NewTerm），执行：
+【2】打开终端 (NewTerm 或终端工具)
 
-    cd ~/Documents/sileo-repo
-    git remote add origin https://github.com/Subos000/sileo-repo.git
-    git commit -m "初始化 Sileo 软件源"
-    git push -u origin main
+    依次执行以下三条命令：
 
-提示输入密码时，输入的是 Personal Access Token，不是登录密码！
+    cd ~/Documents/sileo-repo                ← 进入项目目录
 
+    git add -A                                ← 暂存所有新文件
 
-【步骤3】生成 Personal Access Token
----------------------------------
-1. 电脑浏览器打开 https://github.com/settings/tokens
-2. 点 "Generate new token (classic)"
-3. Note 填: sileo-repo（随意）
-4. Expiration 选 "No expiration"（永不过期）
-5. Scopes 只勾选 repo 即可
-6. 点 "Generate token"
-7. 复制显示的 token（只显示一次，丢失得重新生成）
+    git commit -m "添加: 插件名称"              ← 提交
 
-之后推送时输入：
-  用户名: Subos000
-  密码:   [刚才复制的 token]
+    git push                                  ← 推送到 GitHub
 
+【3】等待 GitHub Actions 自动完成
 
-【步骤4】启用 GitHub Pages
----------------------------------
-1. 打开 https://github.com/Subos000/sileo-repo
-2. Settings -> Pages
-3. Source: "Deploy from a branch"
-4. Branch: "main", 目录: "/ (root)"
-5. 点 "Save"
-6. 等几分钟，页面会显示：
-   "Your site is published at https://subos000.github.io/sileo-repo/"
-
-
-【步骤5】在 Sileo 中添加源
----------------------------------
-1. 打开 Sileo
-2. 点右下角 "来源" -> 右上角 "+"
-3. 输入: https://subos000.github.io/sileo-repo
-4. 点 "添加"
-5. 添加完成后即可看到 4 个示例插件
-
+    推完后不用做任何事，GitHub 会自动生成索引。
+    几分钟后用户在 Sileo 刷新就能看到新插件。
 
 =============================================================
-三、添加新的插件 (.deb)
+三、新增分组方法
 =============================================================
 
-【添加流程】
----------------------------------
-1. 把 .deb 放入对应分类目录：
+想加新分类（比如 "主题"、"字体"），在 Filza 中：
 
-   插件类型         放入目录
-   ───────────     ──────────────────
-   Roothide 插件   debs/roothide/
-   系统增强         debs/tweaks/
-   桌面小部件       debs/widgets/
-   实用工具         debs/utilities/
+    1. 进入 ~/Documents/sileo-repo/debs/
+    2. 新建文件夹，命名如 "themes"
+    3. 把对应 .deb 放进去
 
-2. 重新生成索引：
-
-    cd ~/Documents/sileo-repo
-    bash gen.sh
-
-3. 提交并推送：
-
-    git add -A
-    git commit -m "添加: [插件名称]"
-    git push
-
-4. 用户在 Sileo 刷新源即可看到新插件
-
-
-【验证是否生效】
----------------------------------
-    cd ~/Documents/sileo-repo
-    bash gen.sh
-    cat Packages | grep "Package:"
-
-列出所有已收录的插件包名。
-
-
-【包名命名规范】
----------------------------------
-推荐格式: com.你的名字.插件名
-示例:
-  com.subos000.wechatnoad    (微信去广告)
-  com.subos000.cleaner       (系统清理)
-
+未来再用 gen.sh 时，它自动扫描 debs/ 下所有子目录。
 
 =============================================================
-四、GitHub Actions 自动构建
+四、备份与恢复（越狱环境重置）
 =============================================================
 
-已配置自动构建，每次 git push 到 GitHub 后，
-Actions 会自动运行 gen.sh 生成 Packages 和 Release。
+【备份】
 
-也就是说，你只需把 .deb 放入 debs/ 目录然后 git push，
-GitHub 会自动处理索引生成，手机上甚至不需要运行 gen.sh！
+    整个 sileo-repo 文件夹就是你的源，备份它就行：
 
-流程：
-  1. 放 .deb 到对应分类目录
-  2. git add -A && git commit -m "xxx" && git push
-  3. GitHub Actions 自动运行 gen.sh
-  4. 索引文件自动更新
+    1. 用 Filza 进入 ~/Documents/
+    2. 长按 sileo-repo 文件夹 → 压缩
+    3. 把 zip 存到网盘或电脑
 
-注意：第一次推送后，去 GitHub -> Actions 标签检查运行是否成功。
-     如果失败，点进失败的 workflow 查看日志。
+    或者用 git 本身备份（代码已经在 GitHub 上）:
+    GitHub 上有完整代码，丢了手机重来就行。
 
+【恢复（重新越狱后）】
 
-=============================================================
-五、GPG 签名（可选）
-=============================================================
+    方法 A（从 zip 恢复）:
+    1. 把备份的 sileo-repo.zip 解压到 ~/Documents/
+    2. 打开终端，cd ~/Documents/sileo-repo
+    3. 执行: git pull
+    4. 确认文件完整即可
 
-GPG 签名可以验证 Release 文件完整性。
-普通用户源不需要签名也能正常使用。
-
-如需签名：
-  1. 电脑上: gpg --full-generate-key 生成密钥
-  2. 导出并导入到手机
-  3. 运行: bash gen.sh --sign
-  4. 会额外生成 Release.gpg 和 InRelease 文件
-
+    方法 B（从 GitHub 重新克隆）:
+    1. 终端执行:
+       cd ~/Documents
+       git clone https://Subos000:你的token@github.com/Subos000/sileo-repo.git
+    2. 以后操作照常
 
 =============================================================
-六、快速命令速查
+五、注意事项
 =============================================================
 
- 操作                   命令
- ────────────           ────────────────────────
- 重新生成索引           bash gen.sh
- 构建示例包             bash build-sample-debs.sh
- 查看所有插件           cat Packages | grep "^Package:"
- 查看仓库状态           git status
- 暂存所有修改           git add -A
- 提交修改               git commit -m "说明"
- 推送到 GitHub          git push
+1. git push 密码 → 不是 GitHub 登录密码
+   用 Personal Access Token，教程里有说明
 
+2. 如果 git push 被拒绝 → 用强制推送:
+   git push -f origin main
+
+3. GitHub Actions 如果失败 → 去 GitHub 仓库点
+   Actions 标签查看错误日志
+
+4. 插件 Section 字段 → 制作 .deb 时 control 文件里的
+   Section 要和分类对应 (Roothide 插件 / Tweaks 等)
+
+5. 文件名不要含中文和空格 → 否则可能出问题
+
+6. 记住你的源地址:
+   https://subos000.github.io/sileo-repo
 
 =============================================================
-七、常见问题
+六、常用命令速查
 =============================================================
 
-Q: 添加源后 Sileo 提示 "未找到软件包"？
-A: 检查 GitHub Pages 是否已启用且配置正确。
-   部署后等 1-2 分钟让 GitHub 生效。
-
-Q: git push 认证失败？
-A: 使用 Personal Access Token 代替密码。参考前面"步骤3"。
-
-Q: Packages 没更新？
-A: 检查 GitHub Actions 是否运行成功。如果没启用，
-   需在手机上手动运行 bash gen.sh 再提交推送。
-
-Q: 如何删除一个插件？
-A: 删除对应 .deb 文件，运行 bash gen.sh，提交推送。
-
-Q: 更换软件源图标？
-A: 替换 CydiaIcon.png（建议 100x100 PNG），提交推送。
-
-Q: 更换插件图标？
-A: 在 .deb 的 control 文件中添加 Icon: 字段指向图标路径。
-   或者在 DEBIAN 目录放 icon.png。
-
-
-最后更新: 2026-05-09
+  操作             终端命令
+  ────────────    ───────────────────────────
+  进入项目         cd ~/Documents/sileo-repo
+  查看状态         git status
+  暂存所有         git add -A
+  提交             git commit -m "写说明"
+  推送             git push
+  强制推送         git push -f origin main
+  拉取最新         git pull
+  重新生成索引     bash gen.sh
