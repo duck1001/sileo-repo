@@ -333,6 +333,23 @@ SHA1: 8ec84fc700f1bfce1bd05b3cb701a94d3a5058b8
 SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
 SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
 
+Package: com.wc.tweak
+Version: 5.2.0.1
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 微信插件及配置（TrollFools注入）
+Author: duck
+Maintainer: duck
+Description: 使用巨魔注入器即可使用𓂸
+
+Filename: ./debs/com.wc.tweak_5.2.0.1_iphoneos-arm64e.deb
+Size: 8827552
+MD5sum: d8c82ae70d6bb54f227c64e99a1229d5
+SHA1: 953ca15076c701d45cecc78a88306d62200ef50b
+SHA256: 3d9ee3f8a58169fca08b03cc6af75c3be32ca05c61eebeddce53b07673ee211c
+SHA512: bb180c697dd79634f56f8871c7374d1b1ec29a3537264e7eb168ffbc02f2c7f7515768f0eaf4a31a94bceefd05965fb1b6d3239179ff3f7c086f511885d7fcca
+
 Package: com.be-huge.floating-view
 Name: floatingView
 Description: 分屏，不必太复杂，一切从简即可。
