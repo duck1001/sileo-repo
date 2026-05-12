@@ -57,6 +57,7 @@ SHA1: 84e21ccc11c9be4f0578951c279f5b657d6364cb
 SHA256: 26453fc418aa4d7b7986901d3112f5f117b8c69ab8e43894b8d420b5737ad996
 SHA512: 23bef333f98c2a08587a3c3f1e4dece1a00cb2b1a15d1a4cad9d174f3a4328f962f05c53f4b237c50483602d77a1318f526716fd09dc3ebf54761e6fdef5c8ba
 
+
 Package: com.wkk.crane
 Name: Crane
 Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
@@ -257,6 +258,7 @@ SHA1: bfa9ba6a8a5d63ea96bdb8de11711c82fc0196c3
 SHA256: 78bb862624e3811141b79701b1a155347f2204ede9dd60f611e7db037a9432e0
 SHA512: 46a7c9dc0332a2f7d315737f6b9ef20b15978db4a6f2388c095293e5a42fee773e674f8a68c6a9f4e63cb995fc62d07a6dc98ca24186cd34e0ba1853457b0319
 
+
 Filename: ./debs/com.duck.qis_5.2.0_iphoneos-arm64e.deb
 Size: 54416
 MD5sum: c4b31618e77efe446b4e3fecd15595e4
@@ -284,22 +286,13 @@ SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
 
-Package: com.dy.tweak
-Version: 5.2.0
-Section: dylib
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Architecture: iphoneos-arm64e
-Name: 抖音插件及配置（TrollFools注入）
-Author: duck
-Maintainer: duck
-Description: 使用巨魔注入器即可使用
-
 Filename: ./debs/com.dy.tweak_5.2.0_iphoneos-arm64e.deb
 Size: 450240
 MD5sum: ea21d4b95fd024bb0c479a84ca385f7f
 SHA1: 004a4cc4e9ba77645ca977a8dcd73d73e8f84307
 SHA256: 4fd711c8900deb5937bba235144a04b190e177def56ac2b7f58744b54688884d
 SHA512: bac634a2777e14d6b91866e6473af2c7be306bd7efc69bd7eaca5e1be7132329c3e8ecb96566ea46ccbfea8b535f83a3e1ce7dbe2e3b81061c3a01ca8a3a66aa
+
 
 Package: com.iosdump.customcallbg
 Name: CustomCallBg
@@ -319,6 +312,7 @@ SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
 SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
 SHA512: d4ef9a55929b1fca5a6196f5bc0829401ffdbade66418a5694a31e54fb4b6743e218f688ccb33e273ab2c0955dfe364c3b5a8190c4bf264c38d25fe04e968f2b
 
+
 Package: com.leaf.apps
 Name: Chatgpt
 Description: 可以在低系统用 chagpt
@@ -336,22 +330,13 @@ SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
 SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
 
 
-Package: com.wc.tweak
-Version: 5.2.0
-Section: dylib
-Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
-Architecture: iphoneos-arm64e
-Name: 微信插件及配置（TrollFools注入）
-Author: duck
-Maintainer: duck
-Description: 使用巨魔注入器即可使用
-
 Filename: ./debs/com.wc.tweak_5.2.0_iphoneos-arm64e.deb
 Size: 8848412
 MD5sum: ce8c33233c4f0b09469ee535226271d0
 SHA1: b4ef5c9386401a4d148f030e855a11ec3d1998bc
 SHA256: c2f4d13b9ce52b4bcb5c59d25b7aea50de6f124bb1b0594eb9983e2240f5f6d6
 SHA512: dea6218955ccd7edf53d0fe40ef840a4716ea5ef2a1e745bea376611c376bdce51438d6c8b706ad0eb6b9477e24d23188be29474da3e52cbea1d8d2b13ca6f24
+
 
 Package: com.be-huge.floating-view
 Name: floatingView
