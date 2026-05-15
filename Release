@@ -1,17 +1,17 @@
 Origin: 鸭鸭
-Label:  Sileo Repo
+Label: Sileo Repo
 Suite: stable
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: duck's Sileo jailbreak repository
-Date: Fri, 15 May 2026 11:37:34 +0800
+Date: Fri, 15 May 2026 11:52:19 +0800
 MD5Sum:
- 242e5cfbe66260d4d22f6727eecde3db 23018 Packages
- 84ffdb6fb6726c6af086e2b46a1d3a26 8590 Packages.gz
+ 2db2b98377cbb73eabc8c175af17e81c 26133 Packages
+ dd8b5bca7722efe54fcd578cf32ee8e1 9973 Packages.gz
 SHA1:
- 93e43656017b9596f3d8ced5d83bf4d284939846 23018 Packages
- e55ea84ea470f2748371695fd5bd593f5fe3cc73 8590 Packages.gz
+ e9f07b7889d6b3eccd4c009d241d346567bed6d3 26133 Packages
+ 7f91fdacb9dc759d460fcc8c9228ded269c9982f 9973 Packages.gz
 SHA256:
- b392105f90721dcee56e4123b10cbf5535bc86a84f0420bd13e3aa239509dcab 23018 Packages
- 16174b21fe4517265cd991382672538293b38dc5fa60f85ab2c5021b3554b985 8590 Packages.gz
+ a5d6321ad45f73dfade53374c775cb563c99cfe280a55039f7f4a1e0769f5cc3 26133 Packages
+ b1540fb5fe28fcf895dd8937e992d2405d87e7c035e7c89e6c1f655b35c537f3 9973 Packages.gz
