@@ -1,17 +1,17 @@
-Origin: Subos000 Repo
-Label: Subos000 Sileo Repo
+Origin: 鸭鸭
+Label:  Sileo Repo
 Suite: stable
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Subos000's Sileo jailbreak repository
-Date: Tue, 12 May 2026 21:23:31 +0800
+Description: duck's Sileo jailbreak repository
+Date: Fri, 15 May 2026 11:37:34 +0800
 MD5Sum:
- b5fc59899cee67c158b98f9b9f384f85 22372 Packages
- 42070f24621a327235c8f139b461c033 8399 Packages.gz
+ 242e5cfbe66260d4d22f6727eecde3db 23018 Packages
+ 84ffdb6fb6726c6af086e2b46a1d3a26 8590 Packages.gz
 SHA1:
- 306f59dd094dfb5d0f4f1e5d1eb5605cfb025f4b 22372 Packages
- 4fcfe9ae84859e9b30d474ba2ef5373b7d00871c 8399 Packages.gz
+ 93e43656017b9596f3d8ced5d83bf4d284939846 23018 Packages
+ e55ea84ea470f2748371695fd5bd593f5fe3cc73 8590 Packages.gz
 SHA256:
- 0f7c46fbc49d7b2a42c55c5ea64436dbb76de53457f562680a069a6fb5975a61 22372 Packages
- d26f37c87b65e240f13f55a073e1f3d8e09487dd16d2337a4ff964d679731610 8399 Packages.gz
+ b392105f90721dcee56e4123b10cbf5535bc86a84f0420bd13e3aa239509dcab 23018 Packages
+ 16174b21fe4517265cd991382672538293b38dc5fa60f85ab2c5021b3554b985 8590 Packages.gz

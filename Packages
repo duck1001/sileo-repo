@@ -317,6 +317,23 @@ SHA1: bf35c069ed1f5ae7c2ccd6cac1b00e9f8c5b0ff5
 SHA256: 4c0c37dc0ffc019e7fc45e026c17fd3816cf1987999ceb7077405b632e9efda6
 SHA512: d4ef9a55929b1fca5a6196f5bc0829401ffdbade66418a5694a31e54fb4b6743e218f688ccb33e273ab2c0955dfe364c3b5a8190c4bf264c38d25fe04e968f2b
 
+Package: com.iosdump.customcallbg
+Name: CustomCallBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 428
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb
+Size: 32050
+MD5sum: 0d05b311cd553c64e652aee245b8f641
+SHA1: 31f2c94266bc18ead44ad67005031ead63cdf2ac
+SHA256: 3f0d58108d8b7a02ed8d847031d7696671a77dfcd0f29e0a105067505b3bf077
+SHA512: 11ee3d1a94e7918355f61643bc1ffbfbcc59659cf3fb254fdebb6023232af7d035fa6153acbf11b225b33d2b678a6885d7737d4965ccb79106e2a700e560f184
+
 Package: com.leaf.apps
 Name: Chatgpt
 Description: 可以在低系统用 chagpt
