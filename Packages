@@ -111,6 +111,23 @@ SHA1: f066e206db63781a77e3ad72291865f6f6d038b2
 SHA256: c2afc7aad6afa5fdcb5b4fdd00ed05381e272151fa5088c9e7efbd14f8b46b20
 SHA512: 68408b439608cbe0391c972944601fc8141782665ee888b72c80a65a736f80e50fe3bcc82b1dd3c810d259a0b909b2604a093ce5f5d2f7f80cd5c89c2eb11bf2
 
+ Package: com.0xkuj.filzadirprobe
+Section: Tweaks
+Maintainer: 0xkuj
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 计算Filza里文件夹大小。
+Name: FilzaDirProbe
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Filename: ./debs/FilzaDirProbe-1.6.2-iphoneos-arm64e.deb
+Size: 1140
+MD5sum: f911c1e98893b86444a0f186a5409f44
+SHA1: 2d2d8019b6643f452f90044115811d9bd78c3b2e
+SHA256: 475991340ef34767cdef3c54888e42b9a598672b55bafd8628e34e961422e6af
+SHA512: 7af3e0cd29dfc70d23005489a6a73e8147e73e0bcd59a6037e3936fe6dea9c99dad5a97a37a9449752de8192b464dfa8b0486a8b3bc6c93ab025f24e35c8bb12
+
  Package: com.wkk.folder4
 Name: Folder4x4
 Description: 4x4的文件夹布局/隐藏打开后的文件夹背景/打开文件夹内app自动关闭文件夹/调整打开后文件夹布局整体为中心/修复springboard奔溃后文件夹图标剩9个/配合源里文件夹阴影使用将springboard占用压榨到最低。

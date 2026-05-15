@@ -225,6 +225,25 @@ SHA256: cd425598e416c79a203cfe38f5a7ff43699604544480ab65e41bb128f2ac6b30
 SHA512: a617d566696832201eb43d6cc721054871d50dbc76e055222b1445c797fb72e19e0a87b458a205c9679317ef6e2c91f7583578ff48d3126211db3aa1adc0ee0e
 
 ---CACHE_ENTRY_END---:mtime=1778325637:size=54416
+---CACHE_ENTRY_START---:FilzaDirProbe-1.6.2-iphoneos-arm64e.deb
+Package: com.0xkuj.filzadirprobe
+Section: Tweaks
+Maintainer: 0xkuj
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Pre-Depends: rootless-compat (>= 0.9)
+Description: 计算Filza里文件夹大小。
+Name: FilzaDirProbe
+Author: 0xkuj
+Icon: https://s1.imagehub.cc/images/2025/04/02/754b2bb601bad95dca5cb982e7d926af.jpeg
+Filename: ./debs/FilzaDirProbe-1.6.2-iphoneos-arm64e.deb
+Size: 1140
+MD5sum: f911c1e98893b86444a0f186a5409f44
+SHA1: 2d2d8019b6643f452f90044115811d9bd78c3b2e
+SHA256: 475991340ef34767cdef3c54888e42b9a598672b55bafd8628e34e961422e6af
+SHA512: 7af3e0cd29dfc70d23005489a6a73e8147e73e0bcd59a6037e3936fe6dea9c99dad5a97a37a9449752de8192b464dfa8b0486a8b3bc6c93ab025f24e35c8bb12
+
+---CACHE_ENTRY_END---:mtime=1778818003:size=1140
 ---CACHE_ENTRY_START---:QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb
 Package: com.sini921.quickpowerbutton
 Name: QuickPowerButton(roothide)
