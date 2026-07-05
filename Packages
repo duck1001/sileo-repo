@@ -147,6 +147,26 @@ SHA1: d375a5cb4fc0de971e9944687ded695b72345414
 SHA256: 7b509e845af9ab4144d762b5650e7fa2ecc23536a503f5c58a8d171c412d1330
 SHA512: aecaad204d43af979800e403b17b6b42888e2ac6e753307da5d894b7a8c7487f963ca72cb808db3b7665909dc9635629c3e968ef20f154f1647e676f0925938e
 
+Package: cn.zqbb.orzfolder
+Name: Hello Folder
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+Architecture: iphoneos-arm64
+Version: 1.6.1-3
+Installed-Size: 4344
+Filename: ./debs/Hello Folder-1.6.1-3.deb
+Size: 1685546
+MD5sum: 2bfb986b79f7e46503690ad72b2aaf61
+SHA1: e4c4c0559a7e6751c511cf8a61c1b2196cd98b82
+SHA256: e00e01f84a5c833844fd5f85e19af5024374b55e7e18cb3d3628f99e8f9a5c7a
+SHA512: ce9ff94f125bfa2376a4f31c32238df99985499fd8f98faf0b9ff82bbeff5bf73e44b9327c5262f0d8e880a306c984ad5c00b9fe22d7641b70f529d668e6f534
+
 Package: com.hidenotificationbadge
 Version: 0.0.1
 Section: 插件
@@ -165,6 +185,42 @@ MD5sum: 7edf5b3378ced2f24f811ba96a98a096
 SHA1: d79a679fe1a00d319d1df08d1591fa61abb8223d
 SHA256: eef31ff4723b7b8dc088078fad9c02e1115eb4c9a03ce0a4770083cbd47f0bed
 SHA512: e366e1d62abfa15ef726db4cd7db3574e7ecafc6705fd7a60adf3a1a1bf1b30179d13c5ef814d6ab4fba73df1ac63a6b053220cf1933d68569a6e252cee1efb7
+
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 支持 iOS 14-17所有越狱 App跳转拦截重定向选择器。插件用处：例如付款时使用微信支付可选多开微信或登录跳转这种也可
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 476
+Icon: https://huayuarc.github.io/icon/JumpSelect.png
+Filename: ./debs/JumpSelect-1.0.0.deb
+Size: 59860
+MD5sum: 8b4b0b39637df29e0dcf25133cfe4dd4
+SHA1: ff871318be83e6effdd6098c864a56ee8cc2eb8a
+SHA256: e95984d106348a502b0a8da8df6cfdfbbee5ad442345d7dde92fc99f4da3ea57
+SHA512: eb42b9097f4aaf7fc14420893f41c42d89800fccd8c48b9810e20cf91f230cdc3f69c111b2f20d7fa9d0db645022c1df2170a71a60c3c0d56bb24fba1ec5e4b9
+
+Package: com.dao.kayoko
+Name: Kayoko(RootHide)
+Description: 乌龙工作室版Kayoko，更多优化增强，添加支持iOS16/17。
+Maintainer: 82Flex
+Author: 82Flex
+Section: 嗨-工具
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.0.7
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko, com.82flex.kayoko
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/kayoko/js.json
+Filename: ./debs/Kayoko(RootHide)-4.0.7.deb
+Size: 324480
+MD5sum: a7c4100b1f73b28262433456e55b5acd
+SHA1: 4cfd51ec78f7f9d3aa66d9af0c2092b74c9b06db
+SHA256: afdeccda3551f7a8973e97e0fa236d628071874d1f11a171b042437123a1cc5c
+SHA512: aa6894358a8cf6e65dec88d1bce510b0693d64d254c69e7fe5fd7a175975bc002bfe5d5f3ecc47bea59ecd3e1e562ca0af189f09b40bf6eba038aeff6a8ee605
 
 Package: com.dao.milkywayreborn
 Name: MilkyWayReborn(RootHide)
@@ -222,6 +278,25 @@ MD5sum: 203a46ae95d24c59ea9556d9caeb8ae5
 SHA1: 00d289053f8386e236d13d632cbc63faf869f369
 SHA256: 42f77686aed3be157274826087eab7ff87f7baf87e4174c7a2f048907c48be94
 SHA512: fd30d3d0d3c2669fa26aa62fd6cc7491c1543909ae2a2cf8460e399dc3e4acc24cf223080561136b134a083bf0791128eeda7e8498c60f401462b71172303109
+
+Package: com.dao.picobanner
+Name: PicoBanner(RootHide)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Description: 样式丰富多彩的小巧通知横幅。
+Maintainer: daodao
+Author: daodao
+Section: 嗨-工具
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/picobanner/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 820
+Filename: ./debs/PicoBanner(RootHide)-1.1.deb
+Size: 127220
+MD5sum: 2a4da327b3ae5486bcf29186ff43fd92
+SHA1: 6a33e4cd340b976af4c660347cada5e0e5d41516
+SHA256: 420d1cbdcd5d77d7777083350d8f12b6033e9ddf4c8f94cfe34b80e9dec1c594
+SHA512: 435dc8f368aff14558df572eb5da747e3474a731c920d97e09f750a1b16f045c1f35fa1f4de113576826b0d5eb4a46509e537e9e7535d54aaf9677811a5c43eb
 
 Package: com.sini921.quickpowerbutton
 Name: QuickPowerButton(roothide)
@@ -300,6 +375,40 @@ SHA1: bfa9ba6a8a5d63ea96bdb8de11711c82fc0196c3
 SHA256: 78bb862624e3811141b79701b1a155347f2204ede9dd60f611e7db037a9432e0
 SHA512: 46a7c9dc0332a2f7d315737f6b9ef20b15978db4a6f2388c095293e5a42fee773e674f8a68c6a9f4e63cb995fc62d07a6dc98ca24186cd34e0ba1853457b0319
 
+Package: com.Summit.SquidExtender
+Version: 1.0
+Section: 插件配置
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: SquidExtender配置
+Author: Summit
+Maintainer: Summit
+Icon: https://s1.imagehub.cc/images/2025/02/28/5d3f253f3ccddbc8c8bc3f13771a9af0.png
+Description: 已更新至最新配置：2026/7/6
+Filename: ./debs/com.Summit.SquidExtender_1.0_iphoneos-arm64e.deb
+Size: 10868
+MD5sum: ab566b23b726ee1f85446a55bc7527c0
+SHA1: 992618a9ce63dd6d78cbf0bf2a418a9e47bfb289
+SHA256: 021c02f0fc1673b02127d8f10574436b332b9ff84217f13a7b87190b2d92badb
+SHA512: 4f04a2d50293b9c1a255963d6869ec6e30024f3706faaee5bc0918ecaeeb2b8073c910a1b2d19ce39203290f5384cbd1c7fdb09046aa2f58564ee7edc5684439
+
+Package: com.Summit.fv
+Version: 1.0.0
+Section: 插件配置
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: fv配置
+Author: Summit
+Maintainer: Summit
+Icon: https://s1.imagehub.cc/images/2025/02/28/5d3f253f3ccddbc8c8bc3f13771a9af0.png
+Description: 已更新至最新配置：2026/7/6
+Filename: ./debs/com.Summit.fv_1.0.0_iphoneos-arm64e.deb
+Size: 2344
+MD5sum: c5f1726e8abd101b39fa50fc08d124fb
+SHA1: 595f266c76abaf9fb728e106f40ac37660603779
+SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
+SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
+
 Package: com.duck.qis
 Version: 5.2.0
 Section: dylib
@@ -334,6 +443,7 @@ SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
 SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
+
 Package: com.dyy.tweak
 Version: 2.0
 Section: dylib
@@ -349,6 +459,25 @@ MD5sum: db5bd53208330faa3f71934465b6e64d
 SHA1: 93afcc068d85e51d8e4230e59ebe1f3ecab8aac9
 SHA256: 035fc28232e1d2d55f502065858a4c809db8ef2dc142225900c3a8b039a0551c
 SHA512: 0588ddcfd116361674953c67c26b886a663a955c4ada69db15b20cde83aee64862a7a06508771ca87f22248fe60740dab16fd951299b18eb91303f0eb28eaaba
+
+Package: com.iosdump.appdata
+Name: AppData
+Version: 2.5.1
+Description: 从主屏幕查看和管理应用数据
+Section: Tweaks
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts:com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata
+Architecture: iphoneos-arm64e
+Author: iosdump
+Maintainer: iosdump
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.iosdump.appdata_2.5.1_iphoneos-arm64e.deb
+Size: 3487962
+MD5sum: 3874cddea4f922db17aab41d6ea22c01
+SHA1: 500267e2b64ec3749200a71f7aa19eab9c265c96
+SHA256: 72c5f75a2c482c429020bdd9e4605218f3e739455eefe06ae3a6631045e53788
+SHA512: b44178a8531ae5592971c9815e760222b5b9bf11dfb96914dbf01dc7a5b25d5aeaf1a8de7d78e58e6673257fdd11fc888d722a4513fb343d3df171b90587c664
 
 Package: com.iosdump.customcallbg
 Name: CustomCallBg
@@ -538,22 +667,23 @@ SHA256: ca5075a98794d8d8e49cbf84ac5d206fbadc891c030937f344f42138e1ab3845
 SHA512: de0a6f15b4aa2f06cce1aae20d3dee63fc0fe6c0d628f0a9285f5074242ec6473812729e1706b1b9c126efd435ff10a105073390736ce4378723d58665286397
 
 Package: com.25mao.leftpan.roothide
-Priority: optional
-Section: Rootless
-Maintainer: admin@25mao.com
-Architecture: iphoneos-arm64e
-Version: 1.0-6
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
-Pre-Depends: rootless-compat (>= 0.9)
 Description: 左滑返回上一页面
-Name: 左滑返回(Roothide)
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Name: 左滑返回
 Author: Mao
-Filename: ./debs/左滑返回(Roothide)-1.0-6-iphoneos-arm64e.deb
-Size: 22764
-MD5sum: 25225fd66d590ac33f206f043ef10345
-SHA1: 944419817cb8565c582f08943884572ca6e7a956
-SHA256: 097e895a3487616af98054fbb476c342242f5440b31c31b4eeb3375edddf41a7
-SHA512: 0035050a5cc5e064a6a8b61336fbcb709be26ca6bb0d75a4b5746168ba3c63303b6920bbd0ecd8d7187fa7ec99c836885bf624aeaca6ca312cac307d12808473
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/leftpan.png
+Filename: ./debs/左滑返回-1.0-6-1.deb
+Size: 43148
+MD5sum: 3e01d377926fb69f88271e582411e70c
+SHA1: afa93cb998ece16561af9f72e24dd77442abf1be
+SHA256: b67e6985d9b96b17804ec75003b1328f82fa19ee2cbfa528b714ce6c9dec2d4e
+SHA512: edb8c56ec301640e3bc1646d9fd6c2c3850e640e7a9159e82d96de41fa8faf98a907eb0c5114cc39cf5924683125d48e9024ea806b015e6a8e0b25c7badfdd87
 
 Package: byg.iosios.net.calculatorhistory
 Section: 系统增强
