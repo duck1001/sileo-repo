@@ -597,28 +597,6 @@ SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
 
-
-===CACHE_END===
-===CACHE_START===PicoBanner(RootHide)-1.1.deb:1783280575:127220
-Package: com.dao.picobanner
-Name: PicoBanner(RootHide)
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: love.litten.liddell, dev.traurige.liddell
-Description: 样式丰富多彩的小巧通知横幅。
-Maintainer: daodao
-Author: daodao
-Section: 嗨-工具
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/picobanner/js.json
-Architecture: iphoneos-arm64e
-Version: 1.1
-Installed-Size: 820
-Filename: ./debs/PicoBanner(RootHide)-1.1.deb
-Size: 127220
-MD5sum: 2a4da327b3ae5486bcf29186ff43fd92
-SHA1: 6a33e4cd340b976af4c660347cada5e0e5d41516
-SHA256: 420d1cbdcd5d77d7777083350d8f12b6033e9ddf4c8f94cfe34b80e9dec1c594
-SHA512: 435dc8f368aff14558df572eb5da747e3474a731c920d97e09f750a1b16f045c1f35fa1f4de113576826b0d5eb4a46509e537e9e7535d54aaf9677811a5c43eb
-
 ===CACHE_END===
 ===CACHE_START===Folder4x4-1.2-8-iphoneos-arm64e.deb:1778333552:14222
 Package: com.wkk.folder4
