@@ -537,6 +537,22 @@ SHA1: 93afcc068d85e51d8e4230e59ebe1f3ecab8aac9
 SHA256: 035fc28232e1d2d55f502065858a4c809db8ef2dc142225900c3a8b039a0551c
 SHA512: 0588ddcfd116361674953c67c26b886a663a955c4ada69db15b20cde83aee64862a7a06508771ca87f22248fe60740dab16fd951299b18eb91303f0eb28eaaba
 
+Package: com.huami.Dy
+Version: 1.0.0
+Section: 抖音插件
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 抖音
+Author: Summit
+Maintainer: Summit
+Description: 已更新至最新：2026/7/7
+Filename: ./debs/com.huami.Dy_1.0.0_iphoneos-arm64e.deb
+Size: 553876
+MD5sum: e25b9988302fe511bf581f3ea9141ebb
+SHA1: 5fc2d9f31dd7fb4d373418b9034b44bbf98ebee8
+SHA256: 83624222c20bb429e9e5d479d968c0147bd3ba96baf53cfe5b808c446791e613
+SHA512: 1837e01d203d3ca6bd9fd070e5f791e69d4c06243b76a1870e26b218008658de71537248134c02e787b9b20f24c3d21b10cd8f7dc53e154583f15bdcd9cfbbef
+
 Package: com.iosdump.appdata
 Name: AppData
 Version: 2.5.1

@@ -494,6 +494,26 @@ SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
 SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
 
 ===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
+
+===CACHE_END===
 ===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778325001:58364
 Package: com.sini921.zoomanimation
 Name: ZoomAnimation(roothide)
@@ -513,26 +533,6 @@ MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
 SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
-
-===CACHE_END===
-===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
 ===CACHE_END===
 ===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140
@@ -702,6 +702,24 @@ SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
 SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
+
+===CACHE_END===
+===CACHE_START===com.huami.Dy_1.0.0_iphoneos-arm64e.deb:1783536011:553876
+Package: com.huami.Dy
+Version: 1.0.0
+Section: 抖音插件
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 抖音
+Author: Summit
+Maintainer: Summit
+Description: 已更新至最新：2026/7/7
+Filename: ./debs/com.huami.Dy_1.0.0_iphoneos-arm64e.deb
+Size: 553876
+MD5sum: e25b9988302fe511bf581f3ea9141ebb
+SHA1: 5fc2d9f31dd7fb4d373418b9034b44bbf98ebee8
+SHA256: 83624222c20bb429e9e5d479d968c0147bd3ba96baf53cfe5b808c446791e613
+SHA512: 1837e01d203d3ca6bd9fd070e5f791e69d4c06243b76a1870e26b218008658de71537248134c02e787b9b20f24c3d21b10cd8f7dc53e154583f15bdcd9cfbbef
 
 ===CACHE_END===
 ===CACHE_START===Folder4x4-1.2-8-iphoneos-arm64e.deb:1778333552:14222
