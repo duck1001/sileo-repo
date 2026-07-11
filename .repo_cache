@@ -325,26 +325,6 @@ SHA1: cf704fee68bc0e01c2e791f1df13475834a134f7
 SHA256: 7cdb30063b3222427b1ea2d3cc1c9ba6ad82efae5187de1d2fdb406304197b79
 SHA512: 5d7f7db28094f1af72ea2553b714ac4256e5c438a942a8e5fb2ddef7864160f7e4d1990fad196952791559bb46279d8b52a0ff5226ebd24f869c891af6fd9faf
 
-===CACHE_END===
-===CACHE_START===3dtouch呼出加速-1.0-7-iphoneos-arm64e.deb:1783812834:1482
-Package: com.wkk.3dssss
-Version: 1.0-7
-Section: Tweaks
-Depends: sudo
-Architecture: iphoneos-arm64e
-Name: 3dtouch呼出加速
-Author: wkk
-Tag: cydia::commercial
-Maintainer: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Description: 加速呼出3dtouch菜单，快系统响应一步！（付费群使用，不止这一个插件，具体可以看源里进群详情）
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/3dtouch呼出加速-1.0-7-iphoneos-arm64e.deb
-Size: 1482
-MD5sum: 7deb00da88b28c5623360105e1547c43
-SHA1: bef9e8992171ec6202e150bc1dbd4a7cb6ca0216
-SHA256: b27f8c02bcdd2e67ef13f9922954652a8de6c863cd1f061d955fae4c655999c4
-SHA512: e67b27e00fb14893377f0075ca471134045f8ba1c009939eba1b57d553080b66f48b967d9ebde4dbb47718c0fe42b95fd6ccb11ee83f32ef3213536a9b548d22
 
 ===CACHE_END===
 ===CACHE_START===CustomCallBg-0.0.6.deb:1783404579:97398
@@ -557,6 +537,27 @@ SHA256: be38f320ba0fb35b2ee0925b38c1f1d0ef9537c130e343200c6d537f7b717092
 SHA512: 5bce7a6b51980573b1aac72ac80d38c707b35a70f50c353f3f9e3833754b0bef5719d4aa83554e15b0fa661ceeab364f865308c0276fec3da7c0612bb57cca86
 
 ===CACHE_END===
+===CACHE_START===Lynx 2-2.5.4-iphoneos-arm64e.deb:1783814020:1719590
+Package: com.wkk.lynxtwo
+Name: Lynx 2
+Description: 一个系统增强的插件，已汉化。
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.5.4
+Installed-Size: 2952
+Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Lynx 2-2.5.4-iphoneos-arm64e.deb
+Size: 1719590
+MD5sum: 1587a0b7e8c5c02069082c60cd00f0b2
+SHA1: 65d191f03ee2b38143fe4d8d5bc7be31a285c855
+SHA256: b8fb372c8d68bcf720c3b5819e548f31e625b56e917894e3fdc9e8c64327db48
+SHA512: 2b949a742e3fa2ea75a11584ba17f256e01c58f2b90c58b73af6a8ba6a31a6f11b74970bdc3c32822090923341d3ec6f37bcb6c72f7e19294b8ef8adf0c7c597
+
+===CACHE_END===
 ===CACHE_START===FloatingView-Helper-0.0.1-3.deb:1783404471:7420
 Package: com.wkk.floatingviewhelper
 Name: FloatingView-Helper
@@ -641,6 +642,26 @@ SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
 SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
 
 ===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
+
+===CACHE_END===
 ===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778325001:58364
 Package: com.sini921.zoomanimation
 Name: ZoomAnimation(roothide)
@@ -660,26 +681,6 @@ MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
 SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
-
-===CACHE_END===
-===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
 ===CACHE_END===
 ===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140

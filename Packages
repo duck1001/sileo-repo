@@ -22,25 +22,6 @@ SHA1: 9646ed996f09876dd8d5dbc177e51bd1856ac680
 SHA256: 02ff11e471180adbcad1c0252a87c62a301400a55df4fb752c0dcc1f06ffb1f4
 SHA512: 0b354ec4537f4150aa6f15e7ee3ee399c5e5a62a6736b98ecff9a54568b232bafa61005d4726ba45d8d27750771b5dde214d3e9a393c66e7f7ca5d0ce048a265
 
-Package: com.wkk.3dssss
-Version: 1.0-7
-Section: Tweaks
-Depends: sudo
-Architecture: iphoneos-arm64e
-Name: 3dtouch呼出加速
-Author: wkk
-Tag: cydia::commercial
-Maintainer: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Description: 加速呼出3dtouch菜单，快系统响应一步！（付费群使用，不止这一个插件，具体可以看源里进群详情）
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: ./debs/3dtouch呼出加速-1.0-7-iphoneos-arm64e.deb
-Size: 1482
-MD5sum: 7deb00da88b28c5623360105e1547c43
-SHA1: bef9e8992171ec6202e150bc1dbd4a7cb6ca0216
-SHA256: b27f8c02bcdd2e67ef13f9922954652a8de6c863cd1f061d955fae4c655999c4
-SHA512: e67b27e00fb14893377f0075ca471134045f8ba1c009939eba1b57d553080b66f48b967d9ebde4dbb47718c0fe42b95fd6ccb11ee83f32ef3213536a9b548d22
-
 Package: com.wkk.appdata.iosdump
 Name: AppData
 Version: 2.0.1
@@ -230,6 +211,7 @@ SHA1: cf704fee68bc0e01c2e791f1df13475834a134f7
 SHA256: 7cdb30063b3222427b1ea2d3cc1c9ba6ad82efae5187de1d2fdb406304197b79
 SHA512: 5d7f7db28094f1af72ea2553b714ac4256e5c438a942a8e5fb2ddef7864160f7e4d1990fad196952791559bb46279d8b52a0ff5226ebd24f869c891af6fd9faf
 
+
 Package: com.0xkuj.filzadirprobe
 Section: Tweaks
 Maintainer: 0xkuj
@@ -379,6 +361,25 @@ MD5sum: 60d72b494a742620bab9811098ececb3
 SHA1: 92e8ff09b8af09125bb239ae095017a77c9dc4c0
 SHA256: 12488dff08371eeb0f724cf9d32b090b351371ed7e58d02fb56aed559a7a6806
 SHA512: 2d06bd86115768f9596d8c12f8c5d0ce2fb6f06b0df4f2bbfbfa1d177d09fde6a20ca5205564a2f1b9d69f1c1e31b8e7f8e278d4f3f690f9acaa20cd36a57a80
+
+Package: com.wkk.lynxtwo
+Name: Lynx 2
+Description: 一个系统增强的插件，已汉化。
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.5.4
+Installed-Size: 2952
+Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Lynx 2-2.5.4-iphoneos-arm64e.deb
+Size: 1719590
+MD5sum: 1587a0b7e8c5c02069082c60cd00f0b2
+SHA1: 65d191f03ee2b38143fe4d8d5bc7be31a285c855
+SHA256: b8fb372c8d68bcf720c3b5819e548f31e625b56e917894e3fdc9e8c64327db48
+SHA512: 2b949a742e3fa2ea75a11584ba17f256e01c58f2b90c58b73af6a8ba6a31a6f11b74970bdc3c32822090923341d3ec6f37bcb6c72f7e19294b8ef8adf0c7c597
 
 Package: com.iosdump.memorycontrol
 Name: MemoryControlX
