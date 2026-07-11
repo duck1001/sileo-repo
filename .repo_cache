@@ -1,3 +1,23 @@
+===CACHE_START===后台一键清理-0.0.2-iphoneos-arm64e.deb:1783812865:24576
+Package: com.wkk.hotaiqingli
+Name: 后台一键清理
+Depends: mobilesubstrate
+Description: 后台一键清理，无设置，可下拉锁定。支持iOS14-17
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 240
+Filename: ./debs/后台一键清理-0.0.2-iphoneos-arm64e.deb
+Size: 24576
+MD5sum: cdb21645b08ded7f23cd6d92d34623e0
+SHA1: dfacc08d8560aa7c9bc76d845cbab7ff73ffbbd7
+SHA256: d2dd1e2e1c83240dabebe9417fb54752cd7e3af0acb52b2e101039605cbd1741
+SHA512: 1b3b03418d596bf4d3143837d71889fccfcaeab9506d22bb8cc7613f2017702226754db9d2458030e1e3aa7965e0b1dfc0e881bba545a4b1204cb7200bab0bd5
+
+===CACHE_END===
 ===CACHE_START===com.Summit.SquidExtender_1.0_iphoneos-arm64e.deb:1783280896:10868
 Package: com.Summit.SquidExtender
 Version: 1.0
@@ -58,6 +78,25 @@ MD5sum: d59b9cbd5661a6cdaeb60ed38d1b7f4f
 SHA1: 53748fa13d3fb2ec126c5ff0c2c289431af574cb
 SHA256: ca5075a98794d8d8e49cbf84ac5d206fbadc891c030937f344f42138e1ab3845
 SHA512: de0a6f15b4aa2f06cce1aae20d3dee63fc0fe6c0d628f0a9285f5074242ec6473812729e1706b1b9c126efd435ff10a105073390736ce4378723d58665286397
+
+===CACHE_END===
+===CACHE_START===MemoryControlX-0.2.1-iphoneos-arm64e.deb:1783812921:75780
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.2.1
+Installed-Size: 692
+Filename: ./debs/MemoryControlX-0.2.1-iphoneos-arm64e.deb
+Size: 75780
+MD5sum: b2cdb2bb8f743eb71ca863122cf00e34
+SHA1: 943ce452d99381d44bbc7a4da6779ee218b69803
+SHA256: 4b469f9de438aac1d56ce3f3fbf7a76dd74786661fbcea9386fd619d4c32cd79
+SHA512: 733625a1b6d55df7521568ab78d28d7999a84ab4a5f1aef42e70f4e410f326339d467840d331be8b7fcf1575062bbec800be6c77b93d345aab00303a39ac979a
 
 ===CACHE_END===
 ===CACHE_START===floatingView-1.6.0-1-iphoneos-arm64e.deb:1778324326:1796570
@@ -225,6 +264,25 @@ SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
 SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
 
 ===CACHE_END===
+===CACHE_START===TrollCM-1.1.6-iphoneos-arm64e.deb:1783812890:55908
+Package: com.iosdump.trollcmtweak
+Name: TrollCM
+Depends: mobilesubstrate, preferenceloader
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.6
+Installed-Size: 444
+Filename: ./debs/TrollCM-1.1.6-iphoneos-arm64e.deb
+Size: 55908
+MD5sum: 4c073b3c961e3ade5d1fa4ddc8191925
+SHA1: dab4414b1508b622443e8aac49bbb384be99360e
+SHA256: 9b15aed3c7b93bb413c02229f00a2d4021652e5117312a461948eda173078da2
+SHA512: 47e4415b910d44f024c8bb3b33c492d32c971d5319801b16823ac143399f0829a3fffa2af297496a8738f8dd1b53bc378a6e61777e4cb897633db148cd169b72
+
+===CACHE_END===
 ===CACHE_START===Crane-1.3.17-iphoneos-arm64e.deb:1778586350:1560128
 Package: com.wkk.crane
 Name: Crane
@@ -247,6 +305,48 @@ SHA256: c2afc7aad6afa5fdcb5b4fdd00ed05381e272151fa5088c9e7efbd14f8b46b20
 SHA512: 68408b439608cbe0391c972944601fc8141782665ee888b72c80a65a736f80e50fe3bcc82b1dd3c810d259a0b909b2604a093ce5f5d2f7f80cd5c89c2eb11bf2
 
 ===CACHE_END===
+===CACHE_START===Ersatz(roothide)-1.0.1-2-iphoneos-arm64e.deb:1783812957:32454
+Package: com.sini921.ersatz
+Name: Ersatz(roothide)
+Depends: mobilesubstrate, preferenceloader
+Description: 替换系统范围内的任何文本！基于开源直接编译适配roothide。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ersatz/js.json
+Maintainer: Skitty & SINI
+Author: Skitty & SINI
+Section: 越狱插件
+Architecture: iphoneos-arm64e
+Version: 1.0.1-2
+Installed-Size: 408
+Filename: ./debs/Ersatz(roothide)-1.0.1-2-iphoneos-arm64e.deb
+Size: 32454
+MD5sum: 0db0d08dde62106fb68d0fb1ecace091
+SHA1: cf704fee68bc0e01c2e791f1df13475834a134f7
+SHA256: 7cdb30063b3222427b1ea2d3cc1c9ba6ad82efae5187de1d2fdb406304197b79
+SHA512: 5d7f7db28094f1af72ea2553b714ac4256e5c438a942a8e5fb2ddef7864160f7e4d1990fad196952791559bb46279d8b52a0ff5226ebd24f869c891af6fd9faf
+
+===CACHE_END===
+===CACHE_START===3dtouch呼出加速-1.0-7-iphoneos-arm64e.deb:1783812834:1482
+Package: com.wkk.3dssss
+Version: 1.0-7
+Section: Tweaks
+Depends: sudo
+Architecture: iphoneos-arm64e
+Name: 3dtouch呼出加速
+Author: wkk
+Tag: cydia::commercial
+Maintainer: wkk
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Description: 加速呼出3dtouch菜单，快系统响应一步！（付费群使用，不止这一个插件，具体可以看源里进群详情）
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/3dtouch呼出加速-1.0-7-iphoneos-arm64e.deb
+Size: 1482
+MD5sum: 7deb00da88b28c5623360105e1547c43
+SHA1: bef9e8992171ec6202e150bc1dbd4a7cb6ca0216
+SHA256: b27f8c02bcdd2e67ef13f9922954652a8de6c863cd1f061d955fae4c655999c4
+SHA512: e67b27e00fb14893377f0075ca471134045f8ba1c009939eba1b57d553080b66f48b967d9ebde4dbb47718c0fe42b95fd6ccb11ee83f32ef3213536a9b548d22
+
+===CACHE_END===
 ===CACHE_START===CustomCallBg-0.0.6.deb:1783404579:97398
 Package: com.wkk.customcallbg
 Name: CustomCallBg
@@ -266,6 +366,27 @@ MD5sum: 31d09ae84a46d80cbbeccaceb53f59f4
 SHA1: fe948f62787a516518122693e2a7b25cf177a2f2
 SHA256: d534b5ee962e4aab7724117ebcac5b5624929ef635557ee8152da7413a13df44
 SHA512: 2f764eaa85c651fb36fe35c8232cad40d7051512b2aeb882269dc4e1fa1959940f1e528d38402562ee23b1b0261b6690b9db85ea49b96c4d8d150caf9921b128
+
+===CACHE_END===
+===CACHE_START===MilkyWayReborn(RootHide)-1.3-iphoneos-arm64e.deb:1783813065:48898
+Package: com.dao.milkywayreborn
+Name: MilkyWayReborn(RootHide)
+Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。
+Maintainer: MilkyWay Reborn
+Author: MilkyWay Reborn
+Section: 嗨-系统
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 308
+Filename: ./debs/MilkyWayReborn(RootHide)-1.3-iphoneos-arm64e.deb
+Size: 48898
+MD5sum: 73330624fc81583f94df8b05346e09e6
+SHA1: 3187991f7664f1af244f305c019b497f41f0c512
+SHA256: 8fd6a1d1ee619ecb97c48adb3a1e01b5600cdd1f85f5f0e9773bc6b7d4acd959
+SHA512: a98bc239e3ef47e0fb8257084361db8d80ac7eec2aa4df5ba2f3d085022ad1ae61f28b038700b966a5a2b383c7d546582b27f570e901aa815e6ef415aa144179
 
 ===CACHE_END===
 ===CACHE_START===com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb:1778816178:32050
@@ -307,6 +428,32 @@ MD5sum: 2bfb986b79f7e46503690ad72b2aaf61
 SHA1: e4c4c0559a7e6751c511cf8a61c1b2196cd98b82
 SHA256: e00e01f84a5c833844fd5f85e19af5024374b55e7e18cb3d3628f99e8f9a5c7a
 SHA512: ce9ff94f125bfa2376a4f31c32238df99985499fd8f98faf0b9ff82bbeff5bf73e44b9327c5262f0d8e880a306c984ad5c00b9fe22d7641b70f529d668e6f534
+
+===CACHE_END===
+===CACHE_START===120Hz Fix (iOS15~16)-1.2.0-30-iphoneos-arm64e.deb:1783812821:442872
+Package: cn.zqbb.fix120hz
+Name: 120Hz Fix (iOS15~16)
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+Architecture: iphoneos-arm64e
+Version: 1.2.0-30
+Installed-Size: 1388
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/120Hz Fix (iOS15~16)-1.2.0-30-iphoneos-arm64e.deb
+Size: 442872
+MD5sum: 5d8c88e0a3e87a8f436ecd88aa3aed81
+SHA1: 9646ed996f09876dd8d5dbc177e51bd1856ac680
+SHA256: 02ff11e471180adbcad1c0252a87c62a301400a55df4fb752c0dcc1f06ffb1f4
+SHA512: 0b354ec4537f4150aa6f15e7ee3ee399c5e5a62a6736b98ecff9a54568b232bafa61005d4726ba45d8d27750771b5dde214d3e9a393c66e7f7ca5d0ce048a265
 
 ===CACHE_END===
 ===CACHE_START===高德地图NoAds-1.1-3-iphoneos-arm64e.deb:1778324327:38702
@@ -494,26 +641,6 @@ SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
 SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
 
 ===CACHE_END===
-===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
-
-===CACHE_END===
 ===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778325001:58364
 Package: com.sini921.zoomanimation
 Name: ZoomAnimation(roothide)
@@ -533,6 +660,26 @@ MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
 SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
+
+===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
 ===CACHE_END===
 ===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140
@@ -594,6 +741,25 @@ MD5sum: 2a4da327b3ae5486bcf29186ff43fd92
 SHA1: 6a33e4cd340b976af4c660347cada5e0e5d41516
 SHA256: 420d1cbdcd5d77d7777083350d8f12b6033e9ddf4c8f94cfe34b80e9dec1c594
 SHA512: 435dc8f368aff14558df572eb5da747e3474a731c920d97e09f750a1b16f045c1f35fa1f4de113576826b0d5eb4a46509e537e9e7535d54aaf9677811a5c43eb
+
+===CACHE_END===
+===CACHE_START===SHELLX-1.1.0-iphoneos-arm64e.deb:1783812912:136262
+Package: com.iosdump.shellx
+Name: SHELLX
+Depends: mobilesubstrate, preferenceloader
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 796
+Filename: ./debs/SHELLX-1.1.0-iphoneos-arm64e.deb
+Size: 136262
+MD5sum: fe0cd964e6c9da9f36e449e24bd22b4a
+SHA1: d46bd22ae2b94fd715566e49600d43062483e95d
+SHA256: 7150486132a770f6bec79e0751bc078e848d04de2bb586a9e618dc22fb67168d
+SHA512: 0f625bd72659a7fa70da9582557f625b6544563bf98808f3fedca8a2cd829d5b8f16b722cdebfa9444e622af2ee415359e4675e2e738d3b123b26ffbc0cd8319
 
 ===CACHE_END===
 ===CACHE_START===MilkyWayReborn(RootHide)-1.0.0-iphoneos-arm64e.deb:1778333485:38866
@@ -823,6 +989,27 @@ MD5sum: 3874cddea4f922db17aab41d6ea22c01
 SHA1: 500267e2b64ec3749200a71f7aa19eab9c265c96
 SHA256: 72c5f75a2c482c429020bdd9e4605218f3e739455eefe06ae3a6631045e53788
 SHA512: b44178a8531ae5592971c9815e760222b5b9bf11dfb96914dbf01dc7a5b25d5aeaf1a8de7d78e58e6673257fdd11fc888d722a4513fb343d3df171b90587c664
+
+===CACHE_END===
+===CACHE_START===CursorPro(roothide)-0.0.1-4-iphoneos-arm64e.deb:1783812948:53650
+Package: com.sini921.cursorpro
+Name: CursorPro(roothide)
+Description: 光标简单优化
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://sini921.github.io/repo/sileodepiction/icon/cursorpro.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/cursorpro/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-4
+Installed-Size: 460
+Filename: ./debs/CursorPro(roothide)-0.0.1-4-iphoneos-arm64e.deb
+Size: 53650
+MD5sum: 66d57b73ef1a49fe18fbc55cb23b5244
+SHA1: 35b73df8c4346db1144255869eb9c5021b7240c7
+SHA256: 54afec2a0cdf3ec7ebbab2f4869d4545d7f9e9dd96cae6b7330af6420dff559a
+SHA512: e4b2b0cf0888a05bb8acf59873748cbb1287267d6c0783af2ce1e451e8d12f64efec56cb4d2c9f85ad33552cbc09d9ae692657edb7c7a0bda1723631c4f0ef5f
 
 ===CACHE_END===
 ===CACHE_START===计算器添加历史-1.2-iphoneos-arm64e.deb:1778816958:1268
