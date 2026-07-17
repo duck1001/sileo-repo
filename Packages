@@ -398,6 +398,23 @@ SHA1: 943ce452d99381d44bbc7a4da6779ee218b69803
 SHA256: 4b469f9de438aac1d56ce3f3fbf7a76dd74786661fbcea9386fd619d4c32cd79
 SHA512: 733625a1b6d55df7521568ab78d28d7999a84ab4a5f1aef42e70f4e410f326339d467840d331be8b7fcf1575062bbec800be6c77b93d345aab00303a39ac979a
 
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.8.8
+Installed-Size: 708
+Filename: ./debs/MemoryControlX-0.8.8-iphoneos-arm64e.deb
+Size: 76860
+MD5sum: 753f7f8353bbf13eaac4af8bd8cd4b32
+SHA1: 70ab9b0987018cfab50e00382bc7b6deafc08267
+SHA256: 993b07fa03228d6e922a0c75b57d948738093066701378036e7c6987520ec8ae
+SHA512: 1e9520fd052dd3f752633725f7eef6f8c76ee13ded3381b8d0787ba7ade473d7e4eaf9aa6fd880181f02fb2d88407b2657dbaaa9e557a19abcf5cd91e2a94127
+
 Package: com.dao.milkywayreborn
 Name: MilkyWayReborn(RootHide)
 Description: 窗口化多任务，也就是分屏；无设置，后台界面，按住程序卡片2秒，即可将此程序窗口化/分屏；由 akusio 基于 MilkyWay2 现代化重写；34306 优化适用于 iOS17–18 和 26。

@@ -581,6 +581,25 @@ SHA256: d36fbe9432eac6d9c3acd10b332d815045684f7d4d4cf33154c88dbfc647bb8d
 SHA512: 7455c3d7e9adac7cc4a539e1d1bc6bd219919c8c468cf4bbd9bbf559786984131681a9502a941c5ac8d525160a204d4554b847be86bec5b503d90e9308e22f8a
 
 ===CACHE_END===
+===CACHE_START===MemoryControlX-0.8.8-iphoneos-arm64e.deb:1784281377:76860
+Package: com.iosdump.memorycontrol
+Name: MemoryControlX
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 进程内存与优先级调整
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.8.8
+Installed-Size: 708
+Filename: ./debs/MemoryControlX-0.8.8-iphoneos-arm64e.deb
+Size: 76860
+MD5sum: 753f7f8353bbf13eaac4af8bd8cd4b32
+SHA1: 70ab9b0987018cfab50e00382bc7b6deafc08267
+SHA256: 993b07fa03228d6e922a0c75b57d948738093066701378036e7c6987520ec8ae
+SHA512: 1e9520fd052dd3f752633725f7eef6f8c76ee13ded3381b8d0787ba7ade473d7e4eaf9aa6fd880181f02fb2d88407b2657dbaaa9e557a19abcf5cd91e2a94127
+
+===CACHE_END===
 ===CACHE_START===Kayoko(RootHide)-4.1.2.deb:1783404531:366284
 Package: com.dao.kayoko
 Name: Kayoko(RootHide)
@@ -642,26 +661,6 @@ SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
 SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
 
 ===CACHE_END===
-===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
-Package: com.dao.choicy
-Name: Choicy(RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
-
-===CACHE_END===
 ===CACHE_START===ZoomAnimation(roothide)-0.0.1-13-iphoneos-arm64e.deb:1778325001:58364
 Package: com.sini921.zoomanimation
 Name: ZoomAnimation(roothide)
@@ -681,6 +680,26 @@ MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
 SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
 SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
 SHA512: 3794e87ab943b41fd6b08cfc028487f0c0af9ba015535c14640fd1add6b5ccfc9f3fe95b3d29ca43de514f79a0734e0f506cf556e2ef02b03e914472dd7b5402
+
+===CACHE_END===
+===CACHE_START===Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb:1778817078:161664
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: ./debs/Choicy(RootHide)-1.5.3-4-iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
 ===CACHE_END===
 ===CACHE_START===FilzaDirProbe-1.6.2-iphoneos-arm64e.deb:1778818003:1140
