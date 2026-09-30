@@ -1,0 +1,20 @@
+SIZE:403632
+Package: com.wkk.systembox
+Name: SystemX
+Description: cool
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4-7
+Installed-Size: 1572
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.wkk.systembox_1.4-7_iphoneos-arm64e.deb
+Size: 403632
+MD5sum: 0e2c594ce4de8648dbaa8ad2e76f70d7
+SHA1: 605378f3350d7ae253edb99f819c385dd13341a1
+SHA256: 0c52e2c0cf693561a0f92acbdad16805f0a0c96c11cee1676478a43b94fdfaf0
+SHA512: f0151c4c1cf56f62c21bffa8e56d369ec1b1c1c6cee1e95c7a96cf85910b58d8ec16b6e2c7f7bd038f13501993be8bcdd86dc517ac4b2af37c051e24ef5d29d2
+

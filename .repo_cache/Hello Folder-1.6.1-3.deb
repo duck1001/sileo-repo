@@ -1,0 +1,21 @@
+SIZE:1685546
+Package: cn.zqbb.orzfolder
+Name: Hello Folder
+Description: Folder Layout Customization Tool
+ - 文件夹颜值 ? 美 : 丑
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.orzfolder
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.orzfolder
+Architecture: iphoneos-arm64
+Version: 1.6.1-3
+Installed-Size: 4344
+Filename: ./debs/Hello Folder-1.6.1-3.deb
+Size: 1685546
+MD5sum: 2bfb986b79f7e46503690ad72b2aaf61
+SHA1: e4c4c0559a7e6751c511cf8a61c1b2196cd98b82
+SHA256: e00e01f84a5c833844fd5f85e19af5024374b55e7e18cb3d3628f99e8f9a5c7a
+SHA512: ce9ff94f125bfa2376a4f31c32238df99985499fd8f98faf0b9ff82bbeff5bf73e44b9327c5262f0d8e880a306c984ad5c00b9fe22d7641b70f529d668e6f534
+

@@ -1,0 +1,19 @@
+SIZE:324480
+Package: com.dao.kayoko
+Name: Kayoko(RootHide)
+Description: 乌龙工作室版Kayoko，更多优化增强，添加支持iOS16/17。
+Maintainer: 82Flex
+Author: 82Flex
+Section: 嗨-工具
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 4.0.7
+Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko, com.82flex.kayoko
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/kayoko/js.json
+Filename: ./debs/Kayoko(RootHide)-4.0.7.deb
+Size: 324480
+MD5sum: a7c4100b1f73b28262433456e55b5acd
+SHA1: 4cfd51ec78f7f9d3aa66d9af0c2092b74c9b06db
+SHA256: afdeccda3551f7a8973e97e0fa236d628071874d1f11a171b042437123a1cc5c
+SHA512: aa6894358a8cf6e65dec88d1bce510b0693d64d254c69e7fe5fd7a175975bc002bfe5d5f3ecc47bea59ecd3e1e562ca0af189f09b40bf6eba038aeff6a8ee605
+

@@ -1,0 +1,20 @@
+SIZE:43148
+Package: com.25mao.leftpan.roothide
+Description: 左滑返回上一页面
+Version: 1.0-6
+Priority: optional
+Section: Tweaks
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Architecture: iphoneos-arm64e
+Name: 左滑返回
+Author: Mao
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/leftpan.png
+Filename: ./debs/左滑返回-1.0-6-1.deb
+Size: 43148
+MD5sum: 3e01d377926fb69f88271e582411e70c
+SHA1: afa93cb998ece16561af9f72e24dd77442abf1be
+SHA256: b67e6985d9b96b17804ec75003b1328f82fa19ee2cbfa528b714ce6c9dec2d4e
+SHA512: edb8c56ec301640e3bc1646d9fd6c2c3850e640e7a9159e82d96de41fa8faf98a907eb0c5114cc39cf5924683125d48e9024ea806b015e6a8e0b25c7badfdd87
+

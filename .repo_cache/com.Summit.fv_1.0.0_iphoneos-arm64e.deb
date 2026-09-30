@@ -1,0 +1,18 @@
+SIZE:2344
+Package: com.Summit.fv
+Version: 1.0.0
+Section: 插件配置
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: fv配置
+Author: Summit
+Maintainer: Summit
+Icon: https://s1.imagehub.cc/images/2025/02/28/5d3f253f3ccddbc8c8bc3f13771a9af0.png
+Description: 已更新至最新配置：2026/7/6
+Filename: ./debs/com.Summit.fv_1.0.0_iphoneos-arm64e.deb
+Size: 2344
+MD5sum: c5f1726e8abd101b39fa50fc08d124fb
+SHA1: 595f266c76abaf9fb728e106f40ac37660603779
+SHA256: 1beb3584e03ca363a8b03d7f4c4a0b2ad19828977faf374448b8bfd05ddeb7ae
+SHA512: cbcec5d556d89ac256bab722a770c5db1e8207c02dc6ee9cffb1a99bbf9ebb79ddf943fa163e5f0aeffc00be5db72f399354cba3f35812cbdca411db21af834c
+

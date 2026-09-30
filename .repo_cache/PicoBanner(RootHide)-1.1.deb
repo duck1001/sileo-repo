@@ -1,0 +1,20 @@
+SIZE:127220
+Package: com.dao.picobanner
+Name: PicoBanner(RootHide)
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: love.litten.liddell, dev.traurige.liddell
+Description: 样式丰富多彩的小巧通知横幅。
+Maintainer: daodao
+Author: daodao
+Section: 嗨-工具
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/picobanner/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 820
+Filename: ./debs/PicoBanner(RootHide)-1.1.deb
+Size: 127220
+MD5sum: 2a4da327b3ae5486bcf29186ff43fd92
+SHA1: 6a33e4cd340b976af4c660347cada5e0e5d41516
+SHA256: 420d1cbdcd5d77d7777083350d8f12b6033e9ddf4c8f94cfe34b80e9dec1c594
+SHA512: 435dc8f368aff14558df572eb5da747e3474a731c920d97e09f750a1b16f045c1f35fa1f4de113576826b0d5eb4a46509e537e9e7535d54aaf9677811a5c43eb
+

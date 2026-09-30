@@ -1,0 +1,17 @@
+SIZE:13028
+Package: com.duck.ssfp
+Version: 5.2.0
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 苏苏分屏配置
+Author: duck
+Maintainer: duck
+Description: 配置自用
+Filename: ./debs/com.duck.ssfp_5.2.0_iphoneos-arm64e.deb
+Size: 13028
+MD5sum: 82e9e4370d1d38b50d54625fc7cac46a
+SHA1: 01978886cd637f6bbe31b289bb939e41995af126
+SHA256: 0339f3330ce1a8d6d27904a340d0047bd6b57877e2b0f393593c87b508db1269
+SHA512: 0ad6b67e6287941e899ffd292ec31b996a5b55c4b4517996038736bb575d97da37174ab08b3f8070c83de13e5deeeff87c3363cc2542aed46bcd717124731dff
+

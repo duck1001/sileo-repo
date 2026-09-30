@@ -1,0 +1,20 @@
+SIZE:58114
+Package: com.wkk.customcallbg
+Name: CustomCallBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 408
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/CustomCallBg-0.0.5.deb
+Size: 58114
+MD5sum: 4d117f09cc58cbce7a9105bc15b88079
+SHA1: e60b855f2f5f6e83db4795ff4d0bf328da7e3463
+SHA256: be38f320ba0fb35b2ee0925b38c1f1d0ef9537c130e343200c6d537f7b717092
+SHA512: 5bce7a6b51980573b1aac72ac80d38c707b35a70f50c353f3f9e3833754b0bef5719d4aa83554e15b0fa661ceeab364f865308c0276fec3da7c0612bb57cca86
+

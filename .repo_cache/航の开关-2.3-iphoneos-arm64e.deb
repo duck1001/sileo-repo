@@ -1,0 +1,20 @@
+SIZE:304814
+Package: com.hang.kaiguan
+Name: 航の开关
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 自用开关，有问题请卸载。
+Depiction: https://pic1.imgdb.cn/item/69e5a39901316fbabf2ca364.png
+Icon: https://hang1888.github.io/debs/com.hang.kaiguan-icon.jpg
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 972
+Filename: ./debs/航の开关-2.3-iphoneos-arm64e.deb
+Size: 304814
+MD5sum: d5d63eebfb550cf7490391f8b40883d4
+SHA1: 282bca30d55b8821899023fcdb61edaf76c544c9
+SHA256: 8844efd77173c7910ce7d885ac769c89e8281791fbd1e3330b1aa2ac0a8086fc
+SHA512: 98fc59397f4e0f387821121bf4cb74a9f61fb2ce6a6f1b6d13687647d1cfb6155719c85b64af561826d9e26b91ba0d0f097fad9d72f20b41c136202f1fe7caf0
+

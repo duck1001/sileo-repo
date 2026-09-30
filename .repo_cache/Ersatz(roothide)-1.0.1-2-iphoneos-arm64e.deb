@@ -1,0 +1,20 @@
+SIZE:32454
+Package: com.sini921.ersatz
+Name: Ersatz(roothide)
+Depends: mobilesubstrate, preferenceloader
+Description: 替换系统范围内的任何文本！基于开源直接编译适配roothide。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ersatz.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ersatz/js.json
+Maintainer: Skitty & SINI
+Author: Skitty & SINI
+Section: 越狱插件
+Architecture: iphoneos-arm64e
+Version: 1.0.1-2
+Installed-Size: 408
+Filename: ./debs/Ersatz(roothide)-1.0.1-2-iphoneos-arm64e.deb
+Size: 32454
+MD5sum: 0db0d08dde62106fb68d0fb1ecace091
+SHA1: cf704fee68bc0e01c2e791f1df13475834a134f7
+SHA256: 7cdb30063b3222427b1ea2d3cc1c9ba6ad82efae5187de1d2fdb406304197b79
+SHA512: 5d7f7db28094f1af72ea2553b714ac4256e5c438a942a8e5fb2ddef7864160f7e4d1990fad196952791559bb46279d8b52a0ff5226ebd24f869c891af6fd9faf
+

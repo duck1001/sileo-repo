@@ -1,0 +1,17 @@
+SIZE:154112
+Package: com.leaf.apps
+Name: Chatgpt
+Description: 可以在低系统用 chagpt
+Maintainer: Leaf
+Author: Leaf
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 600
+Filename: ./debs/com.leaf.apps_1.1.1_iphoneos-arm64e.deb
+Size: 154112
+MD5sum: 96f25532d980a4d71fcb991b25ba3275
+SHA1: 8ec84fc700f1bfce1bd05b3cb701a94d3a5058b8
+SHA256: f1847e2b7d4a640e6b442cf8fb3dfe36c96e3912a1294f0bf8614efbbeee0c47
+SHA512: e001cb723c63854fa0f51f912f1a59333afe831ce9d08430c079b8a5dbb3a8ccc9c99259e7dde7d15959641ad606bf25b654976f3083f474f5ad0257b0be06fb
+

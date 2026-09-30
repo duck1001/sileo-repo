@@ -839,6 +839,22 @@ SHA1: 2ff4c9fb2b5ba4f0f9ece73d06d29fbb2662c596
 SHA256: 059fc29305c16592471d6cc7c6f8f19619b0abb2bc11794e6e33c3b10778bf5a
 SHA512: 0cd45884ef3053af03ba9b807e60fceedf7d3616be94e29958ce8493def775d23ac3fa272fa37b4787fc71687138265d06a3c187183616ed4bf358848beb501d
 
+Package: com.duck.ssfp
+Version: 5.2.0
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 苏苏分屏配置
+Author: duck
+Maintainer: duck
+Description: 配置自用
+Filename: ./debs/com.duck.ssfp_5.2.0_iphoneos-arm64e.deb
+Size: 13028
+MD5sum: 82e9e4370d1d38b50d54625fc7cac46a
+SHA1: 01978886cd637f6bbe31b289bb939e41995af126
+SHA256: 0339f3330ce1a8d6d27904a340d0047bd6b57877e2b0f393593c87b508db1269
+SHA512: 0ad6b67e6287941e899ffd292ec31b996a5b55c4b4517996038736bb575d97da37174ab08b3f8070c83de13e5deeeff87c3363cc2542aed46bcd717124731dff
+
 Package: com.dyy.tweak
 Version: 2.0
 Section: dylib
@@ -1168,6 +1184,25 @@ MD5sum: 3e01d377926fb69f88271e582411e70c
 SHA1: afa93cb998ece16561af9f72e24dd77442abf1be
 SHA256: b67e6985d9b96b17804ec75003b1328f82fa19ee2cbfa528b714ce6c9dec2d4e
 SHA512: edb8c56ec301640e3bc1646d9fd6c2c3850e640e7a9159e82d96de41fa8faf98a907eb0c5114cc39cf5924683125d48e9024ea806b015e6a8e0b25c7badfdd87
+
+Package: com.hang.kaiguan
+Name: 航の开关
+Depends: firmware (>= 15.0), mobilesubstrate
+Description: 自用开关，有问题请卸载。
+Depiction: https://pic1.imgdb.cn/item/69e5a39901316fbabf2ca364.png
+Icon: https://hang1888.github.io/debs/com.hang.kaiguan-icon.jpg
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 972
+Filename: ./debs/航の开关-2.3-iphoneos-arm64e.deb
+Size: 304814
+MD5sum: d5d63eebfb550cf7490391f8b40883d4
+SHA1: 282bca30d55b8821899023fcdb61edaf76c544c9
+SHA256: 8844efd77173c7910ce7d885ac769c89e8281791fbd1e3330b1aa2ac0a8086fc
+SHA512: 98fc59397f4e0f387821121bf4cb74a9f61fb2ce6a6f1b6d13687647d1cfb6155719c85b64af561826d9e26b91ba0d0f097fad9d72f20b41c136202f1fe7caf0
 
 Package: byg.iosios.net.calculatorhistory
 Section: 系统增强

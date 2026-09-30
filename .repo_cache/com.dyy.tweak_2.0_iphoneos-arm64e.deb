@@ -1,0 +1,17 @@
+SIZE:310044
+Package: com.dyy.tweak
+Version: 2.0
+Section: dylib
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: 抖音插件仅仅 37.9.0 使用
+Author: duck
+Maintainer: duck
+Description: 使用巨魔注入器即可使用𓂸
+Filename: ./debs/com.dyy.tweak_2.0_iphoneos-arm64e.deb
+Size: 310044
+MD5sum: db5bd53208330faa3f71934465b6e64d
+SHA1: 93afcc068d85e51d8e4230e59ebe1f3ecab8aac9
+SHA256: 035fc28232e1d2d55f502065858a4c809db8ef2dc142225900c3a8b039a0551c
+SHA512: 0588ddcfd116361674953c67c26b886a663a955c4ada69db15b20cde83aee64862a7a06508771ca87f22248fe60740dab16fd951299b18eb91303f0eb28eaaba
+

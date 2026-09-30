@@ -1,0 +1,20 @@
+SIZE:89190
+Package: com.sini921.quickpowerbutton
+Name: QuickPowerButton(roothide)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/quickpowerbutton.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/quickpowerbutton/js.json
+Description: 在锁屏界面手电筒与相机中间添加一个快捷按钮，点击后弹出电源选项
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 0.0.1-39
+Installed-Size: 600
+Filename: ./debs/QuickPowerButton(roothide)-0.0.1-39-iphoneos-arm64e.deb
+Size: 89190
+MD5sum: 3af01b647477d00a9236a1e74a58a15b
+SHA1: e624fd8ec36cbb5146bed5e6e76296cbab310899
+SHA256: c8e6c5caa0152e347f07af8244e0311c373adc3aff7afd8bbb1168c285dd8337
+SHA512: dd996e5411f1cf42407984128d76f6ac833d13afd67a65614c99f7c200953a3140c37a68681ac8f9bdbed755389b1e9efc8ca0212191c3da69c6b231551a05dc
+

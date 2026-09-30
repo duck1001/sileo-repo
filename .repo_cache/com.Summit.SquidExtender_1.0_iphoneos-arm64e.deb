@@ -1,0 +1,18 @@
+SIZE:10868
+Package: com.Summit.SquidExtender
+Version: 1.0
+Section: 插件配置
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Architecture: iphoneos-arm64e
+Name: SquidExtender配置
+Author: Summit
+Maintainer: Summit
+Icon: https://s1.imagehub.cc/images/2025/02/28/5d3f253f3ccddbc8c8bc3f13771a9af0.png
+Description: 已更新至最新配置：2026/7/6
+Filename: ./debs/com.Summit.SquidExtender_1.0_iphoneos-arm64e.deb
+Size: 10868
+MD5sum: ab566b23b726ee1f85446a55bc7527c0
+SHA1: 992618a9ce63dd6d78cbf0bf2a418a9e47bfb289
+SHA256: 021c02f0fc1673b02127d8f10574436b332b9ff84217f13a7b87190b2d92badb
+SHA512: 4f04a2d50293b9c1a255963d6869ec6e30024f3706faaee5bc0918ecaeeb2b8073c910a1b2d19ce39203290f5384cbd1c7fdb09046aa2f58564ee7edc5684439
+

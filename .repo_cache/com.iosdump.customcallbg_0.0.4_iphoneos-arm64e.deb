@@ -1,0 +1,18 @@
+SIZE:32050
+Package: com.iosdump.customcallbg
+Name: CustomCallBg
+Depends: mobilesubstrate, preferenceloader
+Description: iOS 14-17 自定义来去电背景插件
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 0.0.4
+Installed-Size: 428
+Filename: ./debs/com.iosdump.customcallbg_0.0.4_iphoneos-arm64e.deb
+Size: 32050
+MD5sum: 0d05b311cd553c64e652aee245b8f641
+SHA1: 31f2c94266bc18ead44ad67005031ead63cdf2ac
+SHA256: 3f0d58108d8b7a02ed8d847031d7696671a77dfcd0f29e0a105067505b3bf077
+SHA512: 11ee3d1a94e7918355f61643bc1ffbfbcc59659cf3fb254fdebb6023232af7d035fa6153acbf11b225b33d2b678a6885d7737d4965ccb79106e2a700e560f184
+

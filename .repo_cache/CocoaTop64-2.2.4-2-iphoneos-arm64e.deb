@@ -1,0 +1,19 @@
+SIZE:262204
+Package: ru.domo.cocoatop64
+Section: 应用程序
+Maintainer: Ash
+Architecture: iphoneos-arm64e
+Version: 2.2.4-2
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Description: 完美版。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+Filename: ./debs/CocoaTop64-2.2.4-2-iphoneos-arm64e.deb
+Size: 262204
+MD5sum: 8e6249a1032e5eea68cc46d3d7e22528
+SHA1: aa688e84413e3ade0cce7fc53648a59fef9c9d1c
+SHA256: 985b12d720c87559aee898529d3a4291ec8bceac65d3c6e36ca0f9b3ece53213
+SHA512: e0a323008c5549b70f70a4016336878060b13a5fef40f3aa4e74dbd3702a03ab7841abc4881b17737235ba35451530ac65eaccac95e192111338a9df624da9c4
+

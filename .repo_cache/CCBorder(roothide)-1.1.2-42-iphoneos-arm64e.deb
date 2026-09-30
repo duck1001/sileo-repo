@@ -1,0 +1,20 @@
+SIZE:207532
+Package: com.sini921.ccborder
+Name: CCBorder(roothide)
+Description: 控制中心调整，基于开源修改编译，去掉了AlderisColorPicker依赖
+Maintainer: fiore & p2kdev & SINI
+Author: fiore & p2kdev & SINI
+Section: 控制中心
+Depends: mobilesubstrate, firmware (>= 16.0)
+Icon: https://sini921.github.io/repo/sileodepiction/icon/ccborder.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/ccborder/js.json
+Architecture: iphoneos-arm64e
+Version: 1.1.2-42
+Installed-Size: 1008
+Filename: ./debs/CCBorder(roothide)-1.1.2-42-iphoneos-arm64e.deb
+Size: 207532
+MD5sum: 147e010f756f089e90060fd701262708
+SHA1: bb5c97e42618230cbff3736981d87e5afe325c90
+SHA256: d51be8d0bd3b6eb6ed4c6542834a05c7f7ccf529b8ce32db1a5387501515e11b
+SHA512: 216a965bdccf437b79772408efbe0b8313d58af8259cc52e5f48ec21aa741608866fb1dd527286b2ac862ae2d6754b37641aaa073b51b2787f02bdea0e64383f
+

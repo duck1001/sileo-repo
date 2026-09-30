@@ -1,0 +1,22 @@
+SIZE:685898
+Package: com.tsangbaby.kayoko
+Name: Kayoko
+Description: Kayoko 剪切板，Tsangbaby 基于 mlgm 版进行二次修改
+Maintainer: Tsangbaby
+Author: Tsangbaby
+Section: Tweaks
+Icon: https://tsangbaby.github.io/Icon/Kayoko.png
+SileoDepiction: https://tsangbaby.github.io/depictions/com.tsangbaby.kayoko/depiction.json
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Replaces: com.mlgm.kayoko, codes.aurora.kayoko, dev.traurige.kayoko, com.82flex.kayoko, com.skypain.kayoko, com.dao.kayoko, xyz.cypwn.kayoko
+Architecture: iphoneos-arm64e
+Version: 4.8.1
+Installed-Size: 3220
+Filename: ./debs/Kayoko-4.8.1-iphoneos-arm64e.deb
+Size: 685898
+MD5sum: a31b4cafb0f608edf8a1dd8365d0baec
+SHA1: 430e2dab14207455ad16d7b442a7bf0e5a074e80
+SHA256: c54f993454e8db976c14a094d741df06fc775ccc147e6e1df95aa5470c27fbbe
+SHA512: 6b93634ffb25feafc92915372f705fbabe9c6ee2aa59f30e9b2851fcbfc5569ce7698f938a60f2cb4e3fd992935032aee54954347909bebbdd50924ae5d57172
+

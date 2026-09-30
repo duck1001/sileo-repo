@@ -1,0 +1,20 @@
+SIZE:1719590
+Package: com.wkk.lynxtwo
+Name: Lynx 2
+Description: 一个系统增强的插件，已汉化。
+Maintainer: MTAC
+Author: MTAC
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.5.4
+Installed-Size: 2952
+Icon: https://s1.imagehub.cc/images/2025/01/23/16cac85a9470fec0d2ed4cb0af1eac4f.png
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/Lynx 2-2.5.4-iphoneos-arm64e.deb
+Size: 1719590
+MD5sum: 1587a0b7e8c5c02069082c60cd00f0b2
+SHA1: 65d191f03ee2b38143fe4d8d5bc7be31a285c855
+SHA256: b8fb372c8d68bcf720c3b5819e548f31e625b56e917894e3fdc9e8c64327db48
+SHA512: 2b949a742e3fa2ea75a11584ba17f256e01c58f2b90c58b73af6a8ba6a31a6f11b74970bdc3c32822090923341d3ec6f37bcb6c72f7e19294b8ef8adf0c7c597
+
