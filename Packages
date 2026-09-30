@@ -97,6 +97,24 @@ SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
 SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
 SHA512: 082941f5e24cbf48f33eb413655a99f4ef337d70dc098521d606ac2c42a5100540ee53b5e61b5a79e003dfbd24bcec565bef3b4c3ae0ff28e1b691f64df69de9
 
+Package: ru.domo.cocoatop64
+Section: 应用程序
+Maintainer: Ash
+Architecture: iphoneos-arm64e
+Version: 2.2.4-2
+Depends: firmware (>= 15.0)
+Conflicts: ru.domo.cocoatop
+Description: 完美版。
+Author: Domo <domo@rambler.ru>
+Icon: https://siieo.github.io/sileodepictions/CocoaTop/icon.png
+Name: CocoaTop64
+Filename: ./debs/CocoaTop64-2.2.4-2-iphoneos-arm64e.deb
+Size: 262204
+MD5sum: 8e6249a1032e5eea68cc46d3d7e22528
+SHA1: aa688e84413e3ade0cce7fc53648a59fef9c9d1c
+SHA256: 985b12d720c87559aee898529d3a4291ec8bceac65d3c6e36ca0f9b3ece53213
+SHA512: e0a323008c5549b70f70a4016336878060b13a5fef40f3aa4e74dbd3702a03ab7841abc4881b17737235ba35451530ac65eaccac95e192111338a9df624da9c4
+
 Package: cn.octoforce.copyvault
 Name: CopyVault(激活码版)
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
@@ -344,6 +362,23 @@ SHA1: ff871318be83e6effdd6098c864a56ee8cc2eb8a
 SHA256: e95984d106348a502b0a8da8df6cfdfbbee5ad442345d7dde92fc99f4da3ea57
 SHA512: eb42b9097f4aaf7fc14420893f41c42d89800fccd8c48b9810e20cf91f230cdc3f69c111b2f20d7fa9d0db645022c1df2170a71a60c3c0d56bb24fba1ec5e4b9
 
+Package: com.iosdump.jumpselect
+Name: JumpSelect
+Depends: mobilesubstrate, preferenceloader
+Description: 应用跳转拦截重定向选择器，支持 iOS 14-17 所有越狱，插件仅支持应用之间 URL Scheme / Universal Links 拦截跳转
+Maintainer: iosdump
+Author: iosdump
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 492
+Filename: ./debs/JumpSelect-1.2-iphoneos-arm64e.deb
+Size: 63276
+MD5sum: 206331261da25e8885e575a80a68cf48
+SHA1: 29a4b787cc52f5c3fadf2bc72477238370f0cec3
+SHA256: 6b8b40c1c11e02c4467d4953a1ab0587f1bfe3975916c52bb9ef1a8a19e009cb
+SHA512: b94026a36f3a0bcb92f8c15e684ff246187bdd9fd78c25ec4d65c0eed0ec520e9c07a559cf85c29df2a2c3607f366951988c1df140c8b968f7b7d5a324f3158f
+
 Package: com.dao.kayoko
 Name: Kayoko(RootHide)
 Description: 乌龙工作室版Kayoko，更多优化增强，添加支持iOS16/17。
@@ -585,6 +620,60 @@ SHA1: d46bd22ae2b94fd715566e49600d43062483e95d
 SHA256: 7150486132a770f6bec79e0751bc078e848d04de2bb586a9e618dc22fb67168d
 SHA512: 0f625bd72659a7fa70da9582557f625b6544563bf98808f3fedca8a2cd829d5b8f16b722cdebfa9444e622af2ee415359e4675e2e738d3b123b26ffbc0cd8319
 
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Installed-Size: 2836
+Filename: ./debs/ScreenCore-1.1.8-iphoneos-arm64e.deb
+Size: 440414
+MD5sum: 401426796fa7a548fa161d451d65538a
+SHA1: 591736dee3aebac503e17d994098aa35be24e6b6
+SHA256: 4314a26f726d67819b077c4e0972f67040bf58ca4d2c9e54f989089b65ce67d7
+SHA512: aa502a9f6eeed7528aeff605787669425aa00ff0449e80734b540f5a28a66ec80fc8987b49447db99db763e139fd6852cace48006936f311f7a0b861030451e5
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.0
+Installed-Size: 2944
+Filename: ./debs/ScreenCore-2.0.0-iphoneos-arm64e.deb
+Size: 461086
+MD5sum: 2ea828b93c4fddc6ab44e16dd3cf1ebb
+SHA1: d45fe729f8d45f9dbc410089034dc355c79957b1
+SHA256: 4d51044a2d8ae1f5046ba61bd64e0053c28e30505f8ce31ab893ae0c06f726c8
+SHA512: e9508eecce487ef940eacc985d7f470ef21674d303ec6138234ea2f4877050e07efd3c2b17c8ec2815054c8072fc5afd19ac34ee29ec64ff39f4951170b8b317
+
+Package: com.susudear.screencore
+Name: ScreenCore
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 2.0.1
+Installed-Size: 2944
+Filename: ./debs/ScreenCore-2.0.1-iphoneos-arm64e.deb
+Size: 461544
+MD5sum: 3f9a4908138f3c85d075c43605045318
+SHA1: dd02b9e11e56c53cf6566743062f8e6f4c23974d
+SHA256: 8b858e2fa97518f0afd7d7d577470946c98e4e51b742108ff680e3266a010ec6
+SHA512: 196fc99934f4a6cebaf9ada8e7b59fa9bb2c38211fe0ba2e9f2b7b42d07a05a08a33e643195d20b2f953d72cff3cf93123968f9ee184f5c991af2f36ded2f5e0
+
 Package: com.sini.singlevpn
 Icon: https://sini921.github.io/repo/sileodepiction/icon/singlevpn.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/singlevpn/js.json
@@ -603,6 +692,28 @@ MD5sum: ae046c1525b999089cce58eb6832cf87
 SHA1: bdd5f30eab5c91e23fea64d42de02af82b24e783
 SHA256: 6d887bb1e98db2032790f6713f6fd9f7de65ec720a9e06ce73afc07ed17b7211
 SHA512: aebc3d46e23faa884f9c36ecf163f73a8360ff83a23320f35bad145045662adc49b64184e419d4b481c676cd7ac982f949b34991882a628de5eaf6301c04c030
+
+Package: com.susudear.stayshot
+Name: StayShot
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64e
+Version: 0.5.5
+Installed-Size: 2340
+Filename: ./debs/StayShot-0.5.5-iphoneos-arm64e.deb
+Size: 229952
+MD5sum: 578d3b9fb3f8a098bb638b5dbd4821e9
+SHA1: 82a7f0ce6c28a4036f945f67d28a0932b79d872a
+SHA256: 23841f7fce68046245fe0b852dcf203e05242a2ac29785c100cea5fae1443e37
+SHA512: c32d51cba3331daa31086e13a1b99587c8f55a4854f061290c2499737ce43d35f707bb54515080e82415a6acf3984b301ab91ec9f693d241a22ee16eb1f6f42d
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM
@@ -845,6 +956,44 @@ MD5sum: d8c82ae70d6bb54f227c64e99a1229d5
 SHA1: 953ca15076c701d45cecc78a88306d62200ef50b
 SHA256: 3d9ee3f8a58169fca08b03cc6af75c3be32ca05c61eebeddce53b07673ee211c
 SHA512: bb180c697dd79634f56f8871c7374d1b1ec29a3537264e7eb168ffbc02f2c7f7515768f0eaf4a31a94bceefd05965fb1b6d3239179ff3f7c086f511885d7fcca
+
+Package: com.wkk.keyboardx
+Name: KeyboardX
+Description: 键盘调整。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.1-6
+Installed-Size: 616
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.wkk.keyboardx_1.1-6_iphoneos-arm64e.deb
+Size: 109384
+MD5sum: 20cec7728280658131fe31f54457e768
+SHA1: 0fc17559bc3514b8fc8df76b41ce37a660a32503
+SHA256: ef902bc47934fb1e7c1cc5ab0b90295d930e362c7b32341702ab9edbdf65b111
+SHA512: 129bd9963423ed8618da789206a518a13ba2cda56bd4b95327b46e88ae40a3f21c55f770a83757aa83a8afaa952bcbab1feec05abae0519d56d744b1c21f9674
+
+Package: com.wkk.systembox
+Name: SystemX
+Description: cool
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.4-7
+Installed-Size: 1572
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: ./debs/com.wkk.systembox_1.4-7_iphoneos-arm64e.deb
+Size: 403632
+MD5sum: 0e2c594ce4de8648dbaa8ad2e76f70d7
+SHA1: 605378f3350d7ae253edb99f819c385dd13341a1
+SHA256: 0c52e2c0cf693561a0f92acbdad16805f0a0c96c11cee1676478a43b94fdfaf0
+SHA512: f0151c4c1cf56f62c21bffa8e56d369ec1b1c1c6cee1e95c7a96cf85910b58d8ec16b6e2c7f7bd038f13501993be8bcdd86dc517ac4b2af37c051e24ef5d29d2
 
 Package: com.be-huge.floating-view
 Name: floatingView
