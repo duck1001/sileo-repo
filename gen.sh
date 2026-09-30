@@ -1,12 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 # ============================================================
-# Sileo Repo - Packages & Release 增量自动生成脚本 v2.2
-# 修复：致命的前导空格问题 | 优化：纯流写入，无数组拼接
+# Sileo Repo 生成脚本 - Filza / sh 兼容版 v2.4
+# 去掉了 bash 专有语法，支持在 Filza 中直接运行
 # ============================================================
 
-set -euo pipefail
-
-# -------------------------- 配置区域 --------------------------
+# 配置区域
 REPO_NAME="鸭鸭"
 REPO_LABEL="Sileo Repo"
 REPO_DESC="duck's Sileo jailbreak repository"
@@ -15,131 +13,77 @@ REPO_ARCH="iphoneos-arm64 iphoneos-arm64e"
 REPO_COMPONENTS="main"
 SUITE="stable"
 
-CACHE_FILE=".repo_cache"
-FORCE_UPDATE=false
-GENERATE_BZ2=false
-# -------------------------------------------------------------
-
-cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-
-# 解析命令行参数
-while [[ $# -gt 0 ]]; do
-    case "$1" in
-        -f|--force) FORCE_UPDATE=true; shift ;;
-        -h|--help)
-            echo "用法: $0 [选项]"
-            echo "  -f, --force    强制全量重新生成"
-            echo "  -h, --help     显示帮助"
-            exit 0 ;;
-        *) echo "未知选项: $1"; exit 1 ;;
-    esac
-done
+# 切换到脚本所在目录
+cd "$(dirname "$0")" || exit 1
 
 echo "=========================================="
-echo "  Sileo Repo 增量生成器 v2.2"
+echo "  Sileo Repo 生成器 v2.4 (sh 兼容版)"
 echo "=========================================="
 
 mkdir -p debs
 
-# 收集子目录的deb
-echo "[*] 收集软件包..."
-find debs -mindepth 2 -name "*.deb" -print0 | while IFS= read -r -d '' deb; do
-    dest="debs/$(basename "$deb")"
-    if [ ! -f "$dest" ] || [ "$deb" -nt "$dest" ]; then
-        cp "$deb" "$dest"
-        echo "    + 复制: $(basename "$deb")"
-    fi
-done
-
-# 加载缓存
-declare -A cache=()
-if [ "$FORCE_UPDATE" = false ] && [ -f "$CACHE_FILE" ]; then
-    echo "[*] 加载缓存..."
-    current_key=""
-    current_entry=""
-    while IFS= read -r line; do
-        if [[ "$line" == "===CACHE_START==="* ]]; then
-            current_key="${line#===CACHE_START===}"
-            current_entry=""
-        elif [[ "$line" == "===CACHE_END===" ]]; then
-            cache["$current_key"]="$current_entry"
-        else
-            current_entry+="$line"$'\n'
-        fi
-    done < "$CACHE_FILE"
-    echo "    ✓ 已加载 ${#cache[@]} 个缓存条目"
-fi
-
-# 清空Packages文件，准备写入
+# 清空文件准备写入
 > Packages
-updated=0
-skipped=0
 total=0
 
 echo "[*] 处理软件包..."
+
 for deb in debs/*.deb; do
+    # 跳过不存在的文件（防止没有 deb 时循环出错）
     [ -f "$deb" ] || continue
+    
     filename=$(basename "$deb")
     total=$((total + 1))
-    
-    # 生成缓存键（文件名+修改时间+大小）
-    mtime=$(stat -c %Y "$deb")
-    size=$(stat -c %s "$deb")
-    key="$filename:$mtime:$size"
-    
-    if [ "$FORCE_UPDATE" = false ] && [ -n "${cache["$key"]:-}" ]; then
-        # 直接写入缓存内容（确保没有前导空格）
-        echo -n "${cache["$key"]}" >> Packages
-        skipped=$((skipped + 1))
-    else
-        # 重新生成并写入
-        echo "    → 处理: $filename"
-        control=$(dpkg-deb -f "$deb")
-        md5=$(md5sum "$deb" | awk '{print $1}')
-        sha1=$(sha1sum "$deb" | awk '{print $1}')
-        sha256=$(sha256sum "$deb" | awk '{print $1}')
-        sha512=$(sha512sum "$deb" 2>/dev/null | awk '{print $1}' || true)
-        
-        # 生成条目（严格保证Package顶格）
-        entry="$control"$'\n'
-        entry+="Filename: ./debs/$filename"$'\n'
-        entry+="Size: $size"$'\n'
-        entry+="MD5sum: $md5"$'\n'
-        entry+="SHA1: $sha1"$'\n'
-        entry+="SHA256: $sha256"$'\n'
-        [ -n "$sha512" ] && entry+="SHA512: $sha512"$'\n'
-        entry+=$'\n'
-        
-        # 直接写入文件，避免数组拼接产生空格
-        echo -n "$entry" >> Packages
-        cache["$key"]="$entry"
-        updated=$((updated + 1))
-    fi
+    echo "    → 处理: $filename"
+
+    # 获取包控制信息
+    control=$(dpkg-deb -f "$deb")
+    # 获取文件大小和哈希
+    size=$(wc -c < "$deb" | tr -d ' ')
+    md5=$(md5sum "$deb" | awk '{print $1}')
+    sha1=$(sha1sum "$deb" | awk '{print $1}')
+    sha256=$(sha256sum "$deb" | awk '{print $1}')
+    sha512=$(sha512sum "$deb" 2>/dev/null | awk '{print $1}')
+
+    # 写入 Packages（使用 printf 保证格式正确，无多余空格）
+    printf "%s\n" "$control" >> Packages
+    printf "Filename: ./debs/%s\n" "$filename" >> Packages
+    printf "Size: %s\n" "$size" >> Packages
+    printf "MD5sum: %s\n" "$md5" >> Packages
+    printf "SHA1: %s\n" "$sha1" >> Packages
+    printf "SHA256: %s\n" "$sha256" >> Packages
+    [ -n "$sha512" ] && printf "SHA512: %s\n" "$sha512" >> Packages
+    printf "\n" >> Packages
 done
 
 if [ "$total" -eq 0 ]; then
-    echo "[!] 未找到任何deb文件"
+    echo "[!] 未找到任何 deb 文件"
     exit 0
 fi
 
-echo "[*] 统计: 总计 $total | 更新 $updated | 跳过 $skipped"
-
-# 压缩
 echo "[*] 压缩中..."
 gzip -9fc Packages > Packages.gz
-$GENERATE_BZ2 && bzip2 -9fc Packages > Packages.bz2
+xz -9fc Packages > Packages.xz
 
-# 生成Release
-echo "[*] 生成Release..."
+echo "[*] 生成 Release..."
 DATE=$(date -R)
-S_PKG=$(stat -c %s Packages)
-S_GZ=$(stat -c %s Packages.gz)
+
+# 使用 wc -c 替代 stat，兼容 iOS 环境
+S_PKG=$(wc -c < Packages | tr -d ' ')
+S_GZ=$(wc -c < Packages.gz | tr -d ' ')
+S_XZ=$(wc -c < Packages.xz | tr -d ' ')
+
 M_PKG=$(md5sum Packages | awk '{print $1}')
 M_GZ=$(md5sum Packages.gz | awk '{print $1}')
+M_XZ=$(md5sum Packages.xz | awk '{print $1}')
+
 S1_PKG=$(sha1sum Packages | awk '{print $1}')
 S1_GZ=$(sha1sum Packages.gz | awk '{print $1}')
+S1_XZ=$(sha1sum Packages.xz | awk '{print $1}')
+
 S2_PKG=$(sha256sum Packages | awk '{print $1}')
 S2_GZ=$(sha256sum Packages.gz | awk '{print $1}')
+S2_XZ=$(sha256sum Packages.xz | awk '{print $1}')
 
 cat > Release << EOF
 Origin: $REPO_NAME
@@ -153,27 +97,19 @@ Date: $DATE
 MD5Sum:
  $M_PKG $S_PKG Packages
  $M_GZ $S_GZ Packages.gz
+ $M_XZ $S_XZ Packages.xz
 SHA1:
  $S1_PKG $S_PKG Packages
  $S1_GZ $S_GZ Packages.gz
+ $S1_XZ $S_XZ Packages.xz
 SHA256:
  $S2_PKG $S_PKG Packages
  $S2_GZ $S_GZ Packages.gz
+ $S2_XZ $S_XZ Packages.xz
 EOF
-
-# 保存新缓存
-echo "[*] 更新缓存文件..."
-> "$CACHE_FILE"
-for key in "${!cache[@]}"; do
-    echo "===CACHE_START===$key" >> "$CACHE_FILE"
-    echo -n "${cache["$key"]}" >> "$CACHE_FILE"
-    echo "===CACHE_END===" >> "$CACHE_FILE"
-done
 
 echo "=========================================="
 echo "  ✅ 生成完成！"
 echo "  总计: $total 个软件包"
-echo "  更新: $updated 个"
-echo "  跳过: $skipped 个"
 echo "=========================================="
-ls -lh Packages Packages.gz Release
+ls -lh Packages Packages.gz Packages.xz Release
