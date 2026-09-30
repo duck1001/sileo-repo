@@ -693,6 +693,25 @@ SHA1: bdd5f30eab5c91e23fea64d42de02af82b24e783
 SHA256: 6d887bb1e98db2032790f6713f6fd9f7de65ec720a9e06ce73afc07ed17b7211
 SHA512: aebc3d46e23faa884f9c36ecf163f73a8360ff83a23320f35bad145045662adc49b64184e419d4b481c676cd7ac982f949b34991882a628de5eaf6301c04c030
 
+Package: com.susudear.stayshot.markup
+Name: StayShot Edit
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshotedit.json
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Installed-Size: 640
+Filename: ./debs/StayShot Edit-1.6.1-iphoneos-arm64e.deb
+Size: 153344
+MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
+SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
+SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
+SHA512: 882b2b670a4372d3a3503323a232c4a8cc455550a3b8a4429e28502d0bfccf7357e8a15ba58efca48f637e1043581a60b994abb653a80188f9ac2e210b4aaf38
+
 Package: com.susudear.stayshot
 Name: StayShot
 Icon: https://repo.susubaby.cn/icons/StayShot.png
@@ -714,6 +733,25 @@ MD5sum: 578d3b9fb3f8a098bb638b5dbd4821e9
 SHA1: 82a7f0ce6c28a4036f945f67d28a0932b79d872a
 SHA256: 23841f7fce68046245fe0b852dcf203e05242a2ac29785c100cea5fae1443e37
 SHA512: c32d51cba3331daa31086e13a1b99587c8f55a4854f061290c2499737ce43d35f707bb54515080e82415a6acf3984b301ab91ec9f693d241a22ee16eb1f6f42d
+
+Package: com.susudear.crash
+Name: SuSuCrash
+Description: 轻量级崩溃日志查看器
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Icon: https://repo.susubaby.cn/icons/SuCrash.png
+Pre-Depends: rootless-compat (>= 0.9)
+Architecture: iphoneos-arm64e
+Version: 1.0.6
+Installed-Size: 2732
+Filename: ./debs/SuSuCrash-1.0.6-iphoneos-arm64e.deb
+Size: 587854
+MD5sum: 7e4dafdaa887960364c9507c983b9922
+SHA1: 1c2d3eab8b8f4b25774da78781a6c3e89b8a985a
+SHA256: a720af50baa036321c1789794b7827209fbb77bc7fa788f87f4b2a5836737b41
+SHA512: 29f8b4250b95e1fc89021b5694a46eca3fa19ac05ab75b4a85bf8f88216fd886c07ebd890be04787b05485c050535855363a6a01c619f3b23b0632bef73e3993
 
 Package: com.iosdump.trollcmtweak
 Name: TrollCM
